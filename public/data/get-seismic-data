@@ -1,0 +1,3 @@
+## crontab -e
+## */1 * * * * /var/www/html/hazard/data/get-seismic-data >> /tmp/getseis_cron.log
+wget --user=geonet  --password=r0cket --output-document='realtime-shaking.xml'  http://w1-av.geonet.org.nz/services/quake/shakenz/realtime-shaking.xml

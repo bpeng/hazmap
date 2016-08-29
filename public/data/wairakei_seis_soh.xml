@@ -1,0 +1,1705 @@
+<seis_soh>
+<station code="ABAZ" name="Army Bay" n="6509598" e="2674385" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT ABAZ/10-EHE/AK 2011/04/26,21:36:41.4683 00 00 00 100 646 56 240 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="52" unit="mA"/>
+<time status="green" value="47.2607" unit="qual"/>
+<temperature status="green" value="21" unit="C"/>
+</station>
+
+<station code="AWAZ" name="Awhitu Peninsula" n="6458507" e="2656452" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT AWAZ/10-EH2/AK 2011/04/26,21:36:39.1583 00 00 00 100 618 248 452 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="55.0741" unit="mA"/>
+<time status="green" value="47.6907" unit="qual"/>
+<temperature status="green" value="25" unit="C"/>
+</station>
+
+<station code="ETAZ" name="East Tamaki Reservoir" n="6470218" e="2682054" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT ETAZ/10-EH2/AK 2011/04/26,21:36:41.9383 00 00 00 100 579 -43 177 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="53" unit="mA"/>
+<time status="green" value="49.3939" unit="qual"/>
+<temperature status="green" value="22" unit="C"/>
+</station>
+
+<station code="HBAZ" name="Herne Bay Borehole" n="6482059" e="2664709" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT HBAZ/10-EHZ/AK 2011/04/26,21:36:41.8083 00 00 00 100 413 -203 344 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="61" unit="mA"/>
+<time status="green" value="50.3343" unit="qual"/>
+<temperature status="green" value="22" unit="C"/>
+</station>
+
+<station code="KBAZ" name="Karaka Road Borehole" n="6454631" e="2678218" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT KBAZ/10-EH1/AK 2011/04/26,21:36:41.5283 00 00 00 100 583 -66 151 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="30" unit="mA"/>
+<time status="green" value="34" unit="qual"/>
+<temperature status="green" value="25" unit="C"/>
+</station>
+
+<station code="MKAZ" name="Moumoukai" n="6453020" e="2702420" status="green" update="1303853808">
+<data status="green" latency="2" last="SOH DAT MKAZ/10-HHN/AK 2011/04/26,21:36:37.9483 00 00 00 100 516 -1104 760 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="48" unit="mA"/>
+<time status="green" value="47" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+<drift status="green" value="0.46875" update="1303853078" unit="V">
+<channel name="VME" status="green" value="-0.078125" last="1303853068" unit="V"/>
+<channel name="VMN" status="green" value="0.46875" last="1303853068" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303853068" unit="V"/>
+</drift>
+</station>
+
+<station code="MTAZ" name="Motutapu" n="6488794" e="2680479" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT MTAZ/10-EHE/AK 2011/04/26,21:36:42.3383 00 00 00 100 428 -171 46 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="52.5556" unit="mA"/>
+<time status="green" value="45.8294" unit="qual"/>
+<temperature status="green" value="21" unit="C"/>
+</station>
+
+<station code="RVAZ" name="Riverhead Borehole" n="6491211" e="2651390" status="green" update="1303853808">
+<data status="green" latency="1" last="SOH DAT RVAZ/10-EH2/AK 2011/04/26,21:36:40.5183 00 00 00 100 503 -160 175 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="53.8148" unit="mA"/>
+<time status="green" value="47.7684" unit="qual"/>
+<temperature status="green" value="22" unit="C"/>
+</station>
+
+<station code="WIAZ" name="Waiheke Island" n="6487596" e="2700839" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WIAZ/10-EHN/AK 2011/04/26,21:36:39.5983 00 00 00 100 686 283 404 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="56" unit="mA"/>
+<time status="green" value="50.1928" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+</station>
+
+<station code="WTAZ" name="Waiatarua" n="6473199" e="2650537" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WTAZ/10-EHZ/AK 2011/04/26,21:36:35.4483 00 00 00 100 680 -21 81 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="49.1538" unit="mA"/>
+<time status="green" value="45.5381" unit="qual"/>
+<temperature status="green" value="23" unit="C"/>
+</station>
+
+<station code="LHI" name="Lord Howe Island" n="7008670" e="1157840" status="green" update="1303853809">
+<data status="green" latency="9" last="SOH DAT LHI/BHE/AU 2011/04/26,21:36:30.3945 00 00 00 40 274 -2562 8042 0"/>
+</station>
+
+<station code="MCQ" name="Macquarie Island" n="4430968" e="1615823" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT MCQ/BHN/AU 2011/04/26,21:36:34.8945 00 00 00 40 182 -126040 56102 0"/>
+</station>
+
+<station code="NFK" name="Norfolk Island" n="7340940" e="2025715" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT NFK/BHE/AU 2011/04/26,21:36:30.6195 00 00 00 40 205 -11413 15202 0"/>
+</station>
+
+<station code="NIUE" name="Niue" n="108901643" e="-712853932" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT NIUE/BHE/AU 2011/04/26,21:36:36.4195 00 00 00 40 261 -9645 20744 0"/>
+</station>
+
+<station code="COVZ" name="Chateau Observatory" n="6219620" e="2729609" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT COVZ/30-HDF/CH 2011/04/26,21:36:44.0083 00 00 00 100 380 1189681 1190618 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="49" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+<drift status="green" value="1.17188" update="1303853421" unit="V">
+<channel name="VM1" status="green" value="-0.15625" last="1303853420" unit="V"/>
+<channel name="VM2" status="green" value="0.078125" last="1303853420" unit="V"/>
+<channel name="VMZ" status="green" value="1.17188" last="1303853410" unit="V"/>
+</drift>
+</station>
+
+<station code="DRZ" name="Dome Shelter" n="6211205" e="2731192" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT DRZ/10-EHE/CH 2011/04/26,21:36:41.7683 00 00 00 100 401 344 1018 0"/>
+<voltage status="green" value="11.7" unit="v"/>
+<current status="green" value="59.3448" unit="mA"/>
+<time status="green" value="52.6935" unit="qual"/>
+<temperature status="green" value="3" unit="C"/>
+</station>
+
+<station code="FWVZ" name="Far West" n="6213488" e="2730343" status="green" update="1303853809">
+<data status="green" latency="4407" last="SOH DAT FWVZ/30-HDF/CH 2011/04/26,20:22:45.0683 00 00 00 100 332 810525 812155 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="58.64" unit="mA"/>
+<time status="green" value="58.276" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+<drift status="green" value="-1.09375" update="1303852718" unit="V">
+<channel name="VME" status="green" value="0.625" last="1303848371" unit="V"/>
+<channel name="VMN" status="green" value="1.01562" last="1303848371" unit="V"/>
+<channel name="VMZ" status="green" value="-1.09375" last="1303848371" unit="V"/>
+</drift>
+</station>
+
+<station code="IVVZ" name="Iwikau Village" n="6215453" e="2730696" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT IVVZ/30-HDF/CH 2011/04/26,21:36:39.7683 00 00 00 100 425 978941 979731 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="55" unit="mA"/>
+<time status="green" value="51.1262" unit="qual"/>
+<temperature status="green" value="27" unit="C"/>
+</station>
+
+<station code="KRVZ" name="Karewarewa" n="6231071" e="2738487" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KRVZ/10-EHE/CH 2011/04/26,21:36:44.2983 00 00 00 100 207 -4494 4172 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="70.2" unit="mA"/>
+<time status="green" value="53.6089" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="MOVZ" name="Moawhango" n="6196129" e="2747062" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MOVZ/10-EHN/CH 2011/04/26,21:36:39.9483 00 00 00 100 686 464 482 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="52" unit="mA"/>
+<time status="green" value="54.8877" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="MTVZ" name="Mangateitei" n="6199303" e="2722821" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT MTVZ/10-EHN/CH 2011/04/26,21:36:43.9683 00 00 00 100 310 -104 1067 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="55.2759" unit="mA"/>
+<time status="green" value="49.8904" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="NGZ" name="Ngauruhoe" n="6222172" e="2734762" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT NGZ/10-EHN/CH 2011/04/26,21:36:44.4883 00 00 00 100 311 90 988 0"/>
+<voltage status="green" value="12.6" unit="v"/>
+<current status="green" value="75.8571" unit="mA"/>
+<time status="green" value="52.3495" unit="qual"/>
+<temperature status="green" value="4" unit="C"/>
+</station>
+
+<station code="OTVZ" name="Oturere" n="6223391" e="2740322" status="green" update="1303853809">
+<data status="green" latency="14" last="SOH DAT OTVZ/10-EHE/CH 2011/04/26,21:36:29.6783 00 00 00 100 544 334 419 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="56.9615" unit="mA"/>
+<time status="green" value="48.9626" unit="qual"/>
+<temperature status="green" value="8" unit="C"/>
+</station>
+
+<station code="PKVZ" name="Pokaka" n="6210171" e="2712422" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PKVZ/10-EHE/CH 2011/04/26,21:36:32.4283 00 00 00 100 211 -3965 4869 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="53" unit="mA"/>
+<time status="green" value="48.5368" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+</station>
+
+<station code="TOVZ" name="Turoa Road End" n="6208044" e="2727913" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT TOVZ/30-HDF/CH 2011/04/26,21:36:41.0483 00 00 01 100 379 948849 950773 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="69" unit="mA"/>
+<time status="green" value="69.415" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="TRVZ" name="Turoa" n="6208633" e="2729761" status="green" update="1303853809">
+<data status="green" latency="17676" last="SOH DAT TRVZ/10-HHZ/CH 2011/04/26,16:42:09.5283 00 20 00 100 277 -4101 2111 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="73.3103" unit="mA"/>
+<time status="green" value="100" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+<drift status="green" value="-1.01562" update="1303852748" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303835489" unit="V"/>
+<channel name="VMN" status="green" value="-1.01562" last="1303835489" unit="V"/>
+<channel name="VMZ" status="green" value="0.078125" last="1303835489" unit="V"/>
+</drift>
+</station>
+
+<station code="TUVZ" name="Tukino" n="6211818" e="2739031" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TUVZ/10-EHZ/CH 2011/04/26,21:36:42.8883 00 00 00 100 480 351 459 0"/>
+<voltage status="green" value="13.4839" unit="v"/>
+<current status="green" value="67.4167" unit="mA"/>
+<time status="green" value="44.2483" unit="qual"/>
+<temperature status="green" value="26.9655" unit="C"/>
+</station>
+
+<station code="TWVZ" name="Taurewa" n="6234206" e="2720964" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT TWVZ/10-EHN/CH 2011/04/26,21:36:44.3783 00 00 00 100 358 181 587 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="48.7778" unit="mA"/>
+<time status="green" value="49.2774" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="WHVZ" name="Whangaehu Hut" n="6210341" e="2733329" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WHVZ/10-HHE/CH 2011/04/26,21:36:43.2983 00 00 00 100 405 -3467 3257 0"/>
+<voltage status="green" value="12.75" unit="v"/>
+<current status="green" value="64" unit="mA"/>
+<time status="green" value="49" unit="qual"/>
+<temperature status="green" value="5" unit="C"/>
+<drift status="green" value="-1.17188" update="1303853101" unit="V">
+<channel name="VME" status="green" value="0.15625" last="1303853100" unit="V"/>
+<channel name="VMN" status="green" value="0.078125" last="1303853100" unit="V"/>
+<channel name="VMZ" status="green" value="-1.17188" last="1303853080" unit="V"/>
+</drift>
+</station>
+
+<station code="WNVZ" name="Wahianoa" n="6205383" e="2733983" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT WNVZ/11-EHZ/CH 2011/04/26,21:36:39.8283 00 00 00 100 640 26 186 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="61" unit="mA"/>
+<time status="green" value="48.8793" unit="qual"/>
+<temperature status="green" value="8" unit="C"/>
+</station>
+
+<station code="WTVZ" name="West Tongariro" n="6228894" e="2733966" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT WTVZ/10-EHE/CH 2011/04/26,21:36:43.8883 00 00 00 100 225 -1125 1601 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="67.069" unit="mA"/>
+<time status="green" value="54.1373" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="CNGZ" name="Carnagh Station" n="6289031" e="2964180" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT CNGZ/10-EHE/EC 2011/04/26,21:36:40.1083 00 00 00 100 586 286 501 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="53.1852" unit="mA"/>
+<time status="green" value="46.3162" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="MHGZ" name="Mahia Peninsula" n="6216354" e="2933957" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT MHGZ/10-EHN/EC 2011/04/26,21:36:41.1383 00 00 00 100 580 82 323 0"/>
+<voltage status="green" value="12.6" unit="v"/>
+<current status="green" value="53.1481" unit="mA"/>
+<time status="green" value="55.7725" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="MUGZ" name="Murupara" n="6296017" e="2838992" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MUGZ/10-EHE/EC 2011/04/26,21:36:43.1783 00 00 00 100 442 578 809 0"/>
+<voltage status="green" value="12.9" unit="v"/>
+<current status="green" value="54" unit="mA"/>
+<time status="green" value="49.7545" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="PKGZ" name="Pakihiroa" n="6358081" e="2956970" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT PKGZ/10-EHE/EC 2011/04/26,21:36:40.9183 00 00 00 100 634 24 111 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="46" unit="mA"/>
+<time status="green" value="49.7864" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="PRGZ" name="Paritu Road" n="6241960" e="2933295" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PRGZ/10-EHZ/EC 2011/04/26,21:36:40.6083 00 00 00 100 611 329 491 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="58.16" unit="mA"/>
+<time status="green" value="47.7947" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="RAGZ" name="Rawiri" n="6291401" e="2895102" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT RAGZ/10-EHE/EC 2011/04/26,21:36:43.1883 00 00 00 100 436 603 880 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="57" unit="mA"/>
+<time status="green" value="45.6463" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="RIGZ" name="Rimuhau" n="6266557" e="2924083" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT RIGZ/10-EHN/EC 2011/04/26,21:36:43.0083 00 00 00 100 464 474 958 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="28" unit="mA"/>
+<time status="green" value="45.5742" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="SNGZ" name="Shannon Station" n="6260022" e="2886991" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT SNGZ/10-EHE/EC 2011/04/26,21:36:32.7083 00 00 00 100 563 127 397 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="47.7143" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="TKGZ" name="Te Karaka" n="6295710" e="2933171" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT TKGZ/10-EHZ/EC 2011/04/26,21:36:40.9683 00 00 00 100 624 262 376 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="56.5172" unit="mA"/>
+<time status="green" value="45.0458" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="TWGZ" name="Tauwhareparae" n="6324178" e="2946277" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TWGZ/10-EHN/EC 2011/04/26,21:36:35.1583 00 00 00 100 646 607 813 0"/>
+<voltage status="green" value="15" unit="v"/>
+<current status="green" value="56.8276" unit="mA"/>
+<time status="green" value="44.4161" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="WMGZ" name="Waiomatatini Station" n="6361617" e="2986662" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WMGZ/10-EHN/EC 2011/04/26,21:36:41.3483 00 00 00 100 649 260 432 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="56" unit="mA"/>
+<time status="green" value="49.8239" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+</station>
+
+<station code="GBIH" name="Great Barrier Island Hydrophone Array" n="6550567" e="2733157" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT GBIH/43-HDH/HA 2011/04/26,21:36:43.5245 00 00 00 200 269 -1250 1927 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="51" unit="mA"/>
+<time status="green" value="45.3051" unit="qual"/>
+<temperature status="green" value="30" unit="C"/>
+</station>
+
+<station code="ARHZ" name="Aropaoanui" n="6208003" e="2854748" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT ARHZ/10-EHE/HB 2011/04/26,21:36:42.1683 00 00 00 100 356 -94 993 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="56.8276" unit="mA"/>
+<time status="green" value="45" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="BHHZ" name="Black Hill Station" n="6186097" e="2773435" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT BHHZ/10-EHN/HB 2011/04/26,21:36:37.8783 00 00 00 100 686 342 416 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="58.16" unit="mA"/>
+<time status="green" value="46.8904" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="CKHZ" name="Cape Kidnappers" n="6163865" e="2859798" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT CKHZ/10-EHE/HB 2011/04/26,21:36:43.3483 00 00 00 100 386 531 1266 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="52.3462" unit="mA"/>
+<time status="green" value="51.7698" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="DVHZ" name="Dannevirke" n="6095959" e="2779138" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT DVHZ/10-EHZ/HB 2011/04/26,21:36:41.3283 00 00 00 100 494 234 313 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="58.7586" unit="mA"/>
+<time status="green" value="45.6949" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="KAHZ" name="Kahuranaki" n="6149550" e="2841900" status="red" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KAHZ/10-EHZ/HB 2011/04/26,21:36:42.8483 00 00 00 100 412 25 284 0"/>
+<voltage status="red" message="Voltage has dropped below 11.0 volts." value="10.6179" unit="v"/>
+<current status="green" value="83.8214" unit="mA"/>
+<time status="green" value="78.9819" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="KRHZ" name="Kereru" n="6168071" e="2799193" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT KRHZ/10-EHN/HB 2011/04/26,21:36:41.3583 00 00 00 100 560 -231 -161 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="58.96" unit="mA"/>
+<time status="green" value="47.4189" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="KWHZ" name="Kaweka Forest" n="6192210" e="2804647" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KWHZ/10-EHN/HB 2011/04/26,21:36:41.4983 00 00 00 100 522 226 423 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="45.1207" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="MCHZ" name="McNeill Hill" n="6189029" e="2828115" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT MCHZ/10-EHZ/HB 2011/04/26,21:36:44.2983 00 00 00 100 364 21 566 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="81.9259" unit="mA"/>
+<time status="green" value="47.5687" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="MRHZ" name="Matea Rd" n="6257704" e="2806686" status="green" update="1303853809">
+<data status="green" latency="28" last="SOH DAT MRHZ/10-EHZ/HB 2011/04/26,21:36:17.7183 00 00 00 100 253 -391 1045 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="55" unit="mA"/>
+<time status="green" value="46" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="NMHZ" name="Naumai" n="6227132" e="2839205" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT NMHZ/10-EHN/HB 2011/04/26,21:36:39.2183 00 00 00 100 422 -159 87 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="85.8621" unit="mA"/>
+<time status="green" value="55.6144" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="PNHZ" name="Pukenui" n="6138631" e="2783503" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PNHZ/10-EHE/HB 2011/04/26,21:36:39.1783 00 00 00 100 686 -487 -436 0"/>
+<voltage status="green" value="12.9" unit="v"/>
+<current status="green" value="56.16" unit="mA"/>
+<time status="green" value="47.2677" unit="qual"/>
+<temperature status="green" value="8" unit="C"/>
+</station>
+
+<station code="PRHZ" name="Porangahau" n="6098034" e="2819095" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PRHZ/10-EHN/HB 2011/04/26,21:36:44.6283 00 00 00 100 316 -184 696 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="57.3793" unit="mA"/>
+<time status="green" value="46.4591" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="RAHZ" name="Arahi" n="6246125" e="2864275" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT RAHZ/10-EHN/HB 2011/04/26,21:36:39.5683 00 00 00 100 556 199 355 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="59.76" unit="mA"/>
+<time status="green" value="48.2233" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="WHHZ" name="Waihua" n="6227716" e="2876287" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT WHHZ/10-EHE/HB 2011/04/26,21:36:38.2983 00 00 00 100 375 -515 554 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="61.3043" unit="mA"/>
+<time status="green" value="45.6935" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="WPHZ" name="Waipukurau" n="6121120" e="2803424" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WPHZ/10-EHE/HB 2011/04/26,21:36:42.4783 00 00 00 100 449 523 740 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="56.1481" unit="mA"/>
+<time status="green" value="47.0763" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="RAO" name="Raoul Island" n="-1187393762" e="-1673276138" status="purple" update="1303853809">
+<data status="green" latency="13" last="SOH DAT RAO/10-BHZ/IU 2011/04/26,21:36:14.8981 00 20 00 40 196 -44281 42112 0"/>
+<time status="purple" message="GPS clock info older than 1 day." value="100" unit="qual"/>
+<drift status="purple" value="974" update="1251214504" unit="V">
+<channel name="VMN" status="purple" message="Drift info older than 1 week.
+" value="547" last="1251200012" unit="V"/>
+<channel name="VME" status="purple" message="Drift info older than 1 week.
+" value="666.004" last="1251200012" unit="V"/>
+<channel name="VMZ" status="purple" message="Drift info older than 1 week.
+" value="974" last="1251207052" unit="V"/>
+</drift>
+</station>
+
+<station code="RAR" name="Rarotonga" n="-2109524072" e="-220949898" status="purple" update="1303853809">
+<data status="green" latency="10" last="SOH DAT RAR/10-BHZ/IU 2011/04/26,21:36:22.8945 00 20 00 40 206 -220846 118588 0"/>
+<time status="purple" message="GPS clock info older than 1 day." value="100" unit="qual"/>
+<drift status="purple" value="533.417" update="1251214667" unit="V">
+<channel name="VM1" status="purple" message="Drift info older than 1 week.
+" value="511" last="1251203324" unit="V"/>
+<channel name="VME" status="purple" message="Drift info older than 1 week.
+" value="533.417" last="1251207224" unit="V"/>
+<channel name="VMN" status="purple" message="Drift info older than 1 week.
+" value="189" last="1251206624" unit="V"/>
+<channel name="VM2" status="purple" message="Drift info older than 1 week.
+" value="511" last="1251203324" unit="V"/>
+<channel name="VMZ" status="purple" message="Drift info older than 1 week.
+" value="439.558" last="1251203404" unit="V"/>
+</drift>
+</station>
+
+<station code="SBA" name="Scott Base" n="-1911528" e="-58937746" status="purple" update="1303853809">
+<data status="green" latency="20" last="SOH DAT SBA/00-BHN/IU 2011/04/26,21:36:18.8355 00 20 00 40 309 -90 10477 0"/>
+<time status="purple" message="GPS clock info older than 1 day." value="100" unit="qual"/>
+<temperature status="green" value="0" unit="C"/>
+<drift status="purple" value="515" update="1251315196" unit="V">
+<channel name="VME" status="purple" message="Drift info older than 1 week.
+" value="515" last="1251307710" unit="V"/>
+<channel name="VMN" status="purple" message="Drift info older than 1 week.
+" value="511" last="1251307720" unit="V"/>
+<channel name="VMZ" status="purple" message="Drift info older than 1 week.
+" value="511" last="1251307720" unit="V"/>
+</drift>
+</station>
+
+<station code="SNZO" name="South Karori" n="5987279" e="2652683" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT SNZO/00-BHZ/IU 2011/04/26,21:36:32.2695 00 20 00 20 245 -308223 -285192 0"/>
+<voltage status="green" value="11.55" unit="v"/>
+<current status="green" value="216" unit="mA"/>
+<time status="green" value="100" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+<drift status="green" value="1.32812" update="1303852162" unit="V">
+<channel name="VM1" status="green" value="1.32812" last="1303852159" unit="V"/>
+<channel name="VM2" status="green" value="-0.9375" last="1303852159" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303844959" unit="V"/>
+</drift>
+</station>
+
+<station code="BCKZ" name="Boat Cove" n="-958859600" e="-2027799200" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT BCKZ/30-HDF/KI 2011/04/26,21:36:39.0583 00 00 00 100 420 1695992 1696137 0"/>
+<time status="green" value="60" unit="qual"/>
+</station>
+
+<station code="GLKZ" name="Green Lake" n="-1074746836" e="-1795390347" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT GLKZ/10-HHN/KI 2011/04/26,21:36:28.5883 00 00 00 100 326 1434 7593 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="66" unit="mA"/>
+<time status="green" value="48.5798" unit="qual"/>
+<temperature status="green" value="29" unit="C"/>
+<drift status="green" value="0.546875" update="1303853506" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303853500" unit="V"/>
+<channel name="VMN" status="green" value="-0.3125" last="1303853500" unit="V"/>
+<channel name="VMZ" status="green" value="0.546875" last="1303853500" unit="V"/>
+</drift>
+</station>
+
+<station code="ARAZ" name="Aratiatia Landcorp Farm" n="6281501" e="2781700" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT ARAZ/10-EHN/NX 2011/04/26,21:36:44.5683 00 00 00 100 325 -186 951 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="46.7778" unit="mA"/>
+<time status="green" value="51.846" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="POIZ" name="Poihipi" n="6281441" e="2774221" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT POIZ/10-EHE/NX 2011/04/26,21:36:44.3083 00 00 00 100 349 -792 1357 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="50.3333" unit="mA"/>
+<time status="green" value="45.2108" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="APZ" name="The Paps" n="5363444" e="2127534" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT APZ/10-HHE/NZ 2011/04/26,21:36:38.4683 00 00 00 100 592 -351 1291 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="67" unit="mA"/>
+<time status="green" value="54.7864" unit="qual"/>
+<temperature status="green" value="7" unit="C"/>
+<drift status="green" value="-0.859375" update="1303848301" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303848299" unit="V"/>
+<channel name="VMN" status="green" value="-0.859375" last="1303848299" unit="V"/>
+<channel name="VMZ" status="green" value="0.078125" last="1303848299" unit="V"/>
+</drift>
+</station>
+
+<station code="BFZ" name="Birch Farm" n="6053456" e="2784350" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT BFZ/10-HHE/NZ 2011/04/26,21:36:41.8583 00 00 00 100 309 -875 27296 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="185.92" unit="mA"/>
+<time status="green" value="49.1789" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+<drift status="green" value="1.01562" update="1303849062" unit="V">
+<channel name="VMW" status="green" value="0.390625" last="1303849060" unit="V"/>
+<channel name="VMV" status="green" value="1.01562" last="1303849050" unit="V"/>
+<channel name="VMU" status="green" value="-0.3125" last="1303849060" unit="V"/>
+</drift>
+</station>
+
+<station code="BKZ" name="Black Stump Farm" n="6220632" e="2811771" status="green" update="1303853809">
+<data status="green" latency="7" last="SOH DAT BKZ/10-HHE/NZ 2011/04/26,21:36:35.8528 00 20 00 100 538 -2056 -411 0"/>
+<voltage status="green" value="14.3082" unit="v"/>
+<time status="green" value="402.925" unit="qual"/>
+<temperature status="green" value="11.125" unit="C"/>
+<drift status="green" value="-2.0752" update="1303853683" unit="V">
+<channel name="UMU" status="green" value="-0.683594" last="1303835845" unit="V"/>
+<channel name="UMV" status="green" value="-2.0752" last="1303838045" unit="V"/>
+<channel name="LMW" status="green" value="1.64062" last="1303853554" unit="V"/>
+<channel name="UMW" status="green" value="2.0752" last="1303838945" unit="V"/>
+<channel name="LMV" status="green" value="-1.64062" last="1303853552" unit="V"/>
+<channel name="LMU" status="green" value="-0.546875" last="1303853554" unit="V"/>
+</drift>
+</station>
+
+<station code="CRLZ" name="Canterbury Ring Laser" n="5736899" e="2479577" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT CRLZ/10-HHE/NZ 2011/04/26,21:36:40.2868 00 20 00 100 519 -382 972 0"/>
+<voltage status="green" value="13.2989" unit="v"/>
+<time status="green" value="387.305" unit="qual"/>
+<temperature status="green" value="9.525" unit="C"/>
+</station>
+
+<station code="CTZ" name="Chatham Island" n="-1560325915" e="1971562689" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT CTZ/10-HHN/NZ 2011/04/26,21:36:40.2783 00 00 00 100 361 -3719 6829 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="188" unit="mA"/>
+<time status="green" value="54.9736" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+<drift status="green" value="0.625" update="1303853223" unit="V">
+<channel name="VMW" status="green" value="-0.234375" last="1303853220" unit="V"/>
+<channel name="VMV" status="green" value="0.625" last="1303853210" unit="V"/>
+<channel name="VMU" status="green" value="-0.625" last="1303853210" unit="V"/>
+</drift>
+</station>
+
+<station code="DCZ" name="Deep Cove" n="5510778" e="2053074" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT DCZ/10-HHZ/NZ 2011/04/26,21:36:35.1883 00 00 00 100 414 -276 2343 0"/>
+<voltage status="green" value="12.9" unit="v"/>
+<current status="green" value="68.1481" unit="mA"/>
+<time status="green" value="44.6657" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+<drift status="green" value="1.09375" update="1303849066" unit="V">
+<channel name="VME" status="green" value="0.625" last="1303849049" unit="V"/>
+<channel name="VMN" status="green" value="-0.390625" last="1303849059" unit="V"/>
+<channel name="VMZ" status="green" value="1.09375" last="1303849049" unit="V"/>
+</drift>
+</station>
+
+<station code="DSZ" name="Denniston North" n="5939520" e="2410562" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT DSZ/10-HHN/NZ 2011/04/26,21:36:42.3583 00 00 00 100 327 -2766 6672 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="64" unit="mA"/>
+<time status="green" value="50" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+<drift status="green" value="-0.859375" update="1303849092" unit="V">
+<channel name="VME" status="green" value="0.625" last="1303849089" unit="V"/>
+<channel name="VMN" status="green" value="-0.859375" last="1303849089" unit="V"/>
+<channel name="VMZ" status="green" value="-0.078125" last="1303849089" unit="V"/>
+</drift>
+</station>
+
+<station code="EAZ" name="Earnscleugh" n="5546498" e="2220123" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT EAZ/10-HHN/NZ 2011/04/26,21:36:41.7783 00 00 00 100 507 -2279 1581 0"/>
+<voltage status="green" value="14.55" unit="v"/>
+<current status="green" value="55.68" unit="mA"/>
+<time status="green" value="55.4549" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+<drift status="green" value="-0.46875" update="1303851823" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303851820" unit="V"/>
+<channel name="VMN" status="green" value="-0.46875" last="1303851820" unit="V"/>
+<channel name="VMZ" status="green" value="0.078125" last="1303851820" unit="V"/>
+</drift>
+</station>
+
+<station code="FOZ" name="Fox Glacier" n="5736789" e="2252665" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT FOZ/10-HHE/NZ 2011/04/26,21:36:37.9583 00 00 00 100 464 -2881 4100 0"/>
+<voltage status="green" value="11.85" unit="v"/>
+<current status="green" value="67.963" unit="mA"/>
+<time status="green" value="49.9875" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+<drift status="green" value="-0.9375" update="1303849098" unit="V">
+<channel name="VME" status="green" value="-0.78125" last="1303849089" unit="V"/>
+<channel name="VMN" status="green" value="0.546875" last="1303849089" unit="V"/>
+<channel name="VMZ" status="green" value="-0.9375" last="1303849089" unit="V"/>
+</drift>
+</station>
+
+<station code="GRZ" name="Great Barrier Island" n="6547054" e="2731413" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT GRZ/20-BNE/NZ 2011/04/26,21:36:24.1883 00 00 00 50 643 -85117 -85102 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="66.6154" unit="mA"/>
+<time status="green" value="51.8599" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="2.26562" update="1303853016" unit="V">
+<channel name="VME" status="green" value="0.546875" last="1303853000" unit="V"/>
+<channel name="VMN" status="green" value="-0.46875" last="1303853000" unit="V"/>
+<channel name="VMZ" status="green" value="2.26562" last="1303852980" unit="V"/>
+</drift>
+</station>
+
+<station code="HAZ" name="Te Kaha" n="6371736" e="2931442" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT HAZ/10-HHN/NZ 2011/04/26,21:36:37.7283 00 00 00 100 529 -984 1071 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<iduVoltage status="green" value="24.2418" unit="v"/>
+<current status="green" value="68.0769" unit="mA"/>
+<time status="green" value="46.4355" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="-1.25" update="1303851602" unit="V">
+<channel name="VME" status="green" value="0.546875" last="1303851600" unit="V"/>
+<channel name="VMN" status="green" value="-1.25" last="1303851580" unit="V"/>
+<channel name="VMZ" status="green" value="0.15625" last="1303851600" unit="V"/>
+</drift>
+</station>
+
+<station code="HIZ" name="Hauiti" n="6297333" e="2671937" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT HIZ/10-HHN/NZ 2011/04/26,21:36:39.9688 00 20 00 100 387 -1488 2018 0"/>
+<voltage status="green" value="13.1" unit="v"/>
+<time status="green" value="384.809" unit="qual"/>
+<temperature status="green" value="9.6" unit="C"/>
+<drift status="green" value="1.3916" update="1303853708" unit="V">
+<channel name="UMU" status="green" value="-0.0976562" last="1303800503" unit="V"/>
+<channel name="UMV" status="green" value="1.3916" last="1303795303" unit="V"/>
+<channel name="LMW" status="green" value="0.15625" last="1303853549" unit="V"/>
+<channel name="UMW" status="green" value="-0.195312" last="1303798203" unit="V"/>
+<channel name="LMV" status="green" value="0.78125" last="1303853574" unit="V"/>
+<channel name="LMU" status="green" value="0" last="1303853580" unit="V"/>
+</drift>
+</station>
+
+<station code="INZ" name="Inchbonnie" n="5830238" e="2382584" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT INZ/10-HHE/NZ 2011/04/26,21:36:39.7983 00 00 00 100 414 -2720 871 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="0.181685" unit="mA"/>
+<time status="green" value="100" unit="qual"/>
+<temperature status="green" value="16.0748" unit="C"/>
+<drift status="green" value="0.859375" update="1303853302" unit="V">
+<channel name="VME" status="green" value="0.859375" last="1303853299" unit="V"/>
+<channel name="VMN" status="green" value="0.78125" last="1303853299" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303853299" unit="V"/>
+</drift>
+</station>
+
+<station code="JCZ" name="Jackson Bay" n="5673021" e="2172545" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT JCZ/10-HHE/NZ 2011/04/26,21:36:40.7183 00 00 00 100 307 -1269 2356 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="89.9655" unit="mA"/>
+<time status="green" value="54.2039" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+<drift status="green" value="-1.71875" update="1303849042" unit="V">
+<channel name="VME" status="green" value="1.64062" last="1303849039" unit="V"/>
+<channel name="VMN" status="green" value="-1.71875" last="1303849039" unit="V"/>
+<channel name="VMZ" status="green" value="1.48438" last="1303849039" unit="V"/>
+</drift>
+</station>
+
+<station code="KHZ" name="Kahutara" n="5865562" e="2554362" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT KHZ/10-HHE/NZ 2011/04/26,21:36:42.1783 00 00 00 100 288 -5906 -16 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="162.148" unit="mA"/>
+<time status="green" value="49.3051" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+<drift status="green" value="-2.26562" update="1303851895" unit="V">
+<channel name="VMW" status="green" value="-0.546875" last="1303851890" unit="V"/>
+<channel name="VMV" status="green" value="-2.26562" last="1303851890" unit="V"/>
+<channel name="VMU" status="green" value="0" last="1303851890" unit="V"/>
+</drift>
+</station>
+
+<station code="KNZ" name="Kokohu" n="6231932" e="2914570" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KNZ/10-HHE/NZ 2011/04/26,21:36:41.0083 00 00 00 100 372 -6005 7836 0"/>
+<voltage status="green" value="12.75" unit="v"/>
+<current status="green" value="72" unit="mA"/>
+<time status="green" value="51.3911" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+<drift status="green" value="-0.078125" update="1303853216" unit="V">
+<channel name="VME" status="green" value="-0.078125" last="1303853210" unit="V"/>
+<channel name="VMN" status="green" value="0.078125" last="1303853210" unit="V"/>
+<channel name="VMZ" status="green" value="-0.078125" last="1303853210" unit="V"/>
+</drift>
+</station>
+
+<station code="KUZ" name="Kuaotunu" n="6491454" e="2753370" status="green" update="1303853809">
+<data status="green" latency="7" last="SOH DAT KUZ/20-BNE/NZ 2011/04/26,21:36:28.4683 00 00 00 50 643 -57605 -57599 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="61" unit="mA"/>
+<time status="green" value="47.5437" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+<drift status="green" value="0.78125" update="1303849066" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303849059" unit="V"/>
+<channel name="VMN" status="green" value="0.78125" last="1303849049" unit="V"/>
+<channel name="VMZ" status="green" value="0.234375" last="1303849059" unit="V"/>
+</drift>
+</station>
+
+<station code="LBZ" name="Lake Benmore" n="5643096" e="2285683" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT LBZ/10-HHZ/NZ 2011/04/26,21:36:37.2221 00 00 00 100 594 -1292 1405 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="59" unit="mA"/>
+<time status="green" value="60" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+<drift status="green" value="-1.79688" update="1303849062" unit="V">
+<channel name="VME" status="green" value="0.3125" last="1303849060" unit="V"/>
+<channel name="VMN" status="green" value="-1.79688" last="1303849040" unit="V"/>
+<channel name="VMZ" status="green" value="0.703125" last="1303849050" unit="V"/>
+</drift>
+</station>
+
+<station code="LTZ" name="Lake Taylor Station" n="5824812" e="2450360" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT LTZ/10-HHN/NZ 2011/04/26,21:36:36.6868 00 20 00 100 479 -4436 44 0"/>
+<voltage status="green" value="14.1889" unit="v"/>
+<time status="green" value="398.681" unit="qual"/>
+<temperature status="green" value="11.35" unit="C"/>
+<drift status="green" value="-0.78125" update="1303853236" unit="V">
+<channel name="UMZ" status="green" value="0.585938" last="1303835523" unit="V"/>
+<channel name="UMN" status="green" value="0.390625" last="1303838523" unit="V"/>
+<channel name="LMN" status="green" value="0.3125" last="1303853100" unit="V"/>
+<channel name="LME" status="green" value="-0.546875" last="1303853064" unit="V"/>
+<channel name="LMZ" status="green" value="0.546875" last="1303853111" unit="V"/>
+<channel name="UME" status="green" value="-0.78125" last="1303832223" unit="V"/>
+</drift>
+</station>
+
+<station code="MLZ" name="Mavora Lakes" n="5526606" e="2127718" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT MLZ/10-HHZ/NZ 2011/04/26,21:36:37.7988 00 20 00 100 596 -1811 1134 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="green" value="397.919" unit="qual"/>
+<temperature status="green" value="12.15" unit="C"/>
+<drift status="green" value="0.488281" update="1303853801" unit="V">
+<channel name="UMZ" status="green" value="0.488281" last="1303830686" unit="V"/>
+<channel name="UMN" status="green" value="-0.0976562" last="1303829886" unit="V"/>
+<channel name="LMN" status="green" value="-0.15625" last="1303853670" unit="V"/>
+<channel name="LME" status="green" value="-0.234375" last="1303853676" unit="V"/>
+<channel name="LMZ" status="green" value="0.390625" last="1303853671" unit="V"/>
+<channel name="UME" status="green" value="-0.292969" last="1303833186" unit="V"/>
+</drift>
+</station>
+
+<station code="MQZ" name="McQueens Valley" n="5722317" e="2482104" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT MQZ/10-HHE/NZ 2011/04/26,21:36:37.7583 00 00 00 100 583 -2103 401 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="62" unit="mA"/>
+<time status="green" value="48" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+<drift status="green" value="1.40625" update="1303853052" unit="V">
+<channel name="VME" status="green" value="-0.46875" last="1303853049" unit="V"/>
+<channel name="VMN" status="green" value="1.40625" last="1303853049" unit="V"/>
+<channel name="VMZ" status="green" value="-0.546875" last="1303853049" unit="V"/>
+</drift>
+</station>
+
+<station code="MRZ" name="Mangatainoka River" n="6057442" e="2727992" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT MRZ/10-HHE/NZ 2011/04/26,21:36:41.9683 00 00 00 100 352 -1512 3410 0"/>
+<voltage status="green" value="14.0061" unit="v"/>
+<current status="green" value="46" unit="mA"/>
+<time status="green" value="100" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+<drift status="purple" value="-2.36816" update="1303853772" unit="V">
+<channel name="UMZ" status="purple" message="Drift info older than 1 week.
+" value="0" last="1302611985" unit="V"/>
+<channel name="UMN" status="purple" message="Drift info older than 1 week.
+" value="-2.36816" last="1302611785" unit="V"/>
+<channel name="VME" status="green" value="1.32812" last="1303853770" unit="V"/>
+<channel name="VMN" status="green" value="-1.95312" last="1303853770" unit="V"/>
+<channel name="LMN" status="purple" message="Drift info older than 1 week.
+" value="-1.875" last="1302645151" unit="V"/>
+<channel name="LME" status="purple" message="Drift info older than 1 week.
+" value="1.09375" last="1302645153" unit="V"/>
+<channel name="LMZ" status="purple" message="Drift info older than 1 week.
+" value="0" last="1302645156" unit="V"/>
+<channel name="UME" status="purple" message="Drift info older than 1 week.
+" value="1.19629" last="1302593485" unit="V"/>
+<channel name="VMZ" status="green" value="0.078125" last="1303853770" unit="V"/>
+</drift>
+</station>
+
+<station code="MSZ" name="Milford Sound" n="5602581" e="2107945" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT MSZ/10-HHZ/NZ 2011/04/26,21:36:38.9983 00 00 00 100 303 -251 3052 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="59.5556" unit="mA"/>
+<time status="green" value="46.9709" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+<drift status="green" value="1.25" update="1303849094" unit="V">
+<channel name="VME" status="green" value="0.78125" last="1303849090" unit="V"/>
+<channel name="VMN" status="green" value="-0.390625" last="1303849090" unit="V"/>
+<channel name="VMZ" status="green" value="1.25" last="1303849090" unit="V"/>
+</drift>
+</station>
+
+<station code="MWZ" name="Matawai" n="6308829" e="2905795" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT MWZ/10-HHE/NZ 2011/04/26,21:36:37.5083 00 00 00 100 444 -2696 2750 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="62.1111" unit="mA"/>
+<time status="green" value="51.7531" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+<drift status="green" value="1.01562" update="1303849069" unit="V">
+<channel name="VME" status="green" value="0.078125" last="1303849059" unit="V"/>
+<channel name="VMN" status="green" value="0.46875" last="1303849059" unit="V"/>
+<channel name="VMZ" status="green" value="1.01562" last="1303849049" unit="V"/>
+</drift>
+</station>
+
+<station code="MXZ" name="Matakaoa Point" n="6390643" e="2978813" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT MXZ/10-HHN/NZ 2011/04/26,21:36:38.9683 00 00 00 100 428 -2189 3839 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="59.88" unit="mA"/>
+<time status="green" value="51.7545" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="-0.9375" update="1303848965" unit="V">
+<channel name="VME" status="green" value="-0.9375" last="1303848959" unit="V"/>
+<channel name="VMN" status="green" value="0.625" last="1303848959" unit="V"/>
+<channel name="VMZ" status="green" value="-0.234375" last="1303848959" unit="V"/>
+</drift>
+</station>
+
+<station code="NNZ" name="Nelson" n="5998780" e="2541809" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT NNZ/20-BNE/NZ 2011/04/26,21:36:33.4884 00 00 00 50 649 -42383 -42373 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="66" unit="mA"/>
+<time status="green" value="49.9182" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+<drift status="green" value="0.546875" update="1303853171" unit="V">
+<channel name="VME" status="green" value="0.546875" last="1303853170" unit="V"/>
+<channel name="VMN" status="green" value="-0.3125" last="1303853170" unit="V"/>
+<channel name="VMZ" status="green" value="0.3125" last="1303853170" unit="V"/>
+</drift>
+</station>
+
+<station code="ODZ" name="Otahua Downs" n="5571102" e="2324401" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT ODZ/10-HHN/NZ 2011/04/26,21:36:40.5183 00 00 00 100 572 1770 3588 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="148" unit="mA"/>
+<time status="green" value="55.5798" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+<drift status="green" value="1.64062" update="1303853132" unit="V">
+<channel name="VMW" status="green" value="1.64062" last="1303853129" unit="V"/>
+<channel name="VMV" status="green" value="1.09375" last="1303853089" unit="V"/>
+<channel name="VMU" status="green" value="0.390625" last="1303853129" unit="V"/>
+</drift>
+</station>
+
+<station code="OPZ" name="Otago Peninsula" n="5477634" e="2323394" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT OPZ/10-HHE/NZ 2011/04/26,21:36:31.3483 00 00 00 100 416 -572 1559 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="61" unit="mA"/>
+<time status="green" value="48.9231" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+<drift status="green" value="-1.79688" update="1303853758" unit="V">
+<channel name="VMN" status="green" value="1.32812" last="1303853750" unit="V"/>
+<channel name="VME" status="green" value="-1.79688" last="1303853750" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303853750" unit="V"/>
+</drift>
+</station>
+
+<station code="OUZ" name="Omahuta" n="6664433" e="2565083" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT OUZ/20-BNN/NZ 2011/04/26,21:36:24.4683 00 00 00 50 643 -43033 -43029 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="178" unit="mA"/>
+<time status="green" value="54.8155" unit="qual"/>
+<temperature status="green" value="22" unit="C"/>
+<drift status="green" value="-1.64062" update="1303852450" unit="V">
+<channel name="VMW" status="green" value="1.01562" last="1303852439" unit="V"/>
+<channel name="VMV" status="green" value="-1.64062" last="1303852439" unit="V"/>
+<channel name="VMU" status="green" value="1.25" last="1303852439" unit="V"/>
+</drift>
+</station>
+
+<station code="OXZ" name="Oxford" n="5764166" e="2432013" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT OXZ/10-HHZ/NZ 2011/04/26,21:36:40.7783 00 00 00 100 487 -129 3125 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="62" unit="mA"/>
+<time status="green" value="50.4313" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+<drift status="green" value="1.95312" update="1303853054" unit="V">
+<channel name="VME" status="green" value="0.15625" last="1303853050" unit="V"/>
+<channel name="VMN" status="green" value="0.15625" last="1303853050" unit="V"/>
+<channel name="VMZ" status="green" value="1.95312" last="1303853030" unit="V"/>
+</drift>
+</station>
+
+<station code="PUZ" name="Puketiti" n="6334458" e="2971173" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT PUZ/10-HHZ/NZ 2011/04/26,21:36:37.6928 00 20 00 100 407 -3978 5295 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="green" value="402.92" unit="qual"/>
+</station>
+
+<station code="PXZ" name="Pawanui" n="6123371" e="2839524" status="red" update="1303853809">
+<data status="green" latency="4" last="SOH DAT PXZ/10-HHE/NZ 2011/04/26,21:36:40.1583 00 00 00 100 326 -10143 10027 0"/>
+<voltage status="red" message="Voltage has dropped below 12.7 volts." value="11.85" unit="v"/>
+<current status="green" value="67.4815" unit="mA"/>
+<time status="green" value="51.491" unit="qual"/>
+<temperature status="green" value="22" unit="C"/>
+<drift status="green" value="-1.71875" update="1303849064" unit="V">
+<channel name="VME" status="green" value="0.78125" last="1303849049" unit="V"/>
+<channel name="VMN" status="green" value="-1.71875" last="1303849039" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303849059" unit="V"/>
+</drift>
+</station>
+
+<station code="PYZ" name="Puysegur Point" n="5430285" e="2022233" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT PYZ/10-HHZ/NZ 2011/04/26,21:36:40.2383 00 00 00 100 490 -658 2569 0"/>
+<voltage status="green" value="12.75" unit="v"/>
+<current status="green" value="67.7778" unit="mA"/>
+<time status="green" value="54.1123" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+<drift status="green" value="0.546875" update="1303851214" unit="V">
+<channel name="VME" status="green" value="0.3125" last="1303851209" unit="V"/>
+<channel name="VMN" status="green" value="0.546875" last="1303851199" unit="V"/>
+<channel name="VMZ" status="green" value="-0.078125" last="1303851209" unit="V"/>
+</drift>
+</station>
+
+<station code="QRZ" name="Quartz Range" n="6042228" e="2470267" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT QRZ/20-BNE/NZ 2011/04/26,21:36:33.0483 00 00 00 50 643 -13662 -13659 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="178.16" unit="mA"/>
+<time status="green" value="50.0236" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="1.17188" update="1303849062" unit="V">
+<channel name="VMW" status="green" value="0.15625" last="1303849059" unit="V"/>
+<channel name="VMV" status="green" value="1.17188" last="1303849059" unit="V"/>
+<channel name="VMU" status="green" value="-1.09375" last="1303849059" unit="V"/>
+</drift>
+</station>
+
+<station code="RIZ" name="Raoul Island" n="-1186964172" e="-1673728869" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT RIZ/10-HHZ/NZ 2011/04/26,21:36:42.3483 00 00 00 100 296 -6269 3322 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="68" unit="mA"/>
+<time status="green" value="50.5798" unit="qual"/>
+<temperature status="green" value="29" unit="C"/>
+<drift status="green" value="-1.17188" update="1303853513" unit="V">
+<channel name="VME" status="green" value="0" last="1303853509" unit="V"/>
+<channel name="VMN" status="green" value="-1.17188" last="1303853509" unit="V"/>
+<channel name="VMZ" status="green" value="0.390625" last="1303853509" unit="V"/>
+</drift>
+</station>
+
+<station code="RPZ" name="Rata Peaks" n="5719604" e="2353191" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT RPZ/10-HHZ/NZ 2011/04/26,21:36:41.0288 00 20 00 100 375 -7094 7848 0"/>
+<voltage status="green" value="13.2469" unit="v"/>
+<time status="green" value="390.798" unit="qual"/>
+<temperature status="green" value="11.125" unit="C"/>
+<drift status="green" value="-1.19629" update="1303853760" unit="V">
+<channel name="UMZ" status="green" value="0.585938" last="1303824505" unit="V"/>
+<channel name="UM2" status="green" value="-1.19629" last="1303817505" unit="V"/>
+<channel name="UM1" status="green" value="-0.683594" last="1303824905" unit="V"/>
+<channel name="LM1" status="green" value="-0.546875" last="1303853634" unit="V"/>
+<channel name="LMZ" status="green" value="0.46875" last="1303853634" unit="V"/>
+<channel name="LM2" status="green" value="-0.9375" last="1303853633" unit="V"/>
+</drift>
+</station>
+
+<station code="SYZ" name="Scrubby Hill" n="5400918" e="2213614" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT SYZ/10-HHN/NZ 2011/04/26,21:36:39.0183 00 00 00 100 544 -1000 1302 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="79" unit="mA"/>
+<time status="green" value="51.4508" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+<drift status="green" value="1.01562" update="1303853053" unit="V">
+<channel name="VME" status="green" value="0.3125" last="1303853050" unit="V"/>
+<channel name="VMN" status="green" value="0.078125" last="1303853050" unit="V"/>
+<channel name="VMZ" status="green" value="1.01562" last="1303853040" unit="V"/>
+</drift>
+</station>
+
+<station code="THZ" name="Top House" n="5938275" e="2502112" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT THZ/10-HHN/NZ 2011/04/26,21:36:37.8528 00 20 00 100 559 -1579 1183 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="green" value="403.944" unit="qual"/>
+</station>
+
+<station code="TLZ" name="Tolley Road" n="6316207" e="2732001" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT TLZ/10-HHZ/NZ 2011/04/26,21:36:41.5383 00 00 00 100 384 -1300 660 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="62" unit="mA"/>
+<time status="green" value="48.022" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+<drift status="green" value="-1.01562" update="1303853081" unit="V">
+<channel name="VME" status="green" value="-1.01562" last="1303853080" unit="V"/>
+<channel name="VMN" status="green" value="0.3125" last="1303853080" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303853080" unit="V"/>
+</drift>
+</station>
+
+<station code="TOZ" name="Tahuroa Road" n="6382685" e="2730721" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT TOZ/20-BNN/NZ 2011/04/26,21:36:27.7683 00 00 00 50 643 -283940 -283933 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="59" unit="mA"/>
+<time status="green" value="52.8821" unit="qual"/>
+<temperature status="green" value="24" unit="C"/>
+<drift status="green" value="1.48438" update="1303849069" unit="V">
+<channel name="VME" status="green" value="0.546875" last="1303849060" unit="V"/>
+<channel name="VMN" status="green" value="-0.46875" last="1303849060" unit="V"/>
+<channel name="VMZ" status="green" value="1.48438" last="1303849040" unit="V"/>
+</drift>
+</station>
+
+<station code="TSZ" name="Takapari Road" n="6123231" e="2762571" status="green" update="1303853809">
+<data status="green" latency="7" last="SOH DAT TSZ/10-HHN/NZ 2011/04/26,21:36:36.7988 00 20 00 100 348 -2468 -1186 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="green" value="389.76" unit="qual"/>
+</station>
+
+<station code="TUZ" name="Tuapeka" n="5467305" e="2248719" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT TUZ/10-HHZ/NZ 2011/04/26,21:36:37.7583 00 00 00 100 516 -2161 997 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="66" unit="mA"/>
+<time status="green" value="58.534" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+<drift status="green" value="1.5625" update="1303849083" unit="V">
+<channel name="VME" status="green" value="0.9375" last="1303849080" unit="V"/>
+<channel name="VMN" status="green" value="-1.17188" last="1303849080" unit="V"/>
+<channel name="VMZ" status="green" value="1.5625" last="1303849070" unit="V"/>
+</drift>
+</station>
+
+<station code="URZ" name="Urewera" n="6318867" e="2869769" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT URZ/10-HH2/NZ 2011/04/26,21:36:38.1468 00 20 00 100 351 -17036 -1424 0"/>
+<voltage status="green" value="13.232" unit="v"/>
+<time status="green" value="400.857" unit="qual"/>
+<temperature status="green" value="9.2" unit="C"/>
+<drift status="green" value="-1.48926" update="1303853631" unit="V">
+<channel name="UMZ" status="green" value="0.78125" last="1303845348" unit="V"/>
+<channel name="UM2" status="green" value="0.878906" last="1303848348" unit="V"/>
+<channel name="UM1" status="green" value="-1.48926" last="1303844348" unit="V"/>
+<channel name="LM1" status="green" value="-1.17188" last="1303853504" unit="V"/>
+<channel name="LMZ" status="green" value="0.625" last="1303853505" unit="V"/>
+<channel name="LM2" status="green" value="0.78125" last="1303853505" unit="V"/>
+</drift>
+</station>
+
+<station code="VRZ" name="Vera Road" n="6229660" e="2662092" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT VRZ/10-HHE/NZ 2011/04/26,21:36:39.0508 00 20 00 100 423 -5086 688 0"/>
+<voltage status="green" value="14.0649" unit="v"/>
+<time status="green" value="403.154" unit="qual"/>
+<temperature status="green" value="10.125" unit="C"/>
+<drift status="green" value="-0.78125" update="1303853366" unit="V">
+<channel name="UMZ" status="green" value="-0.78125" last="1303840584" unit="V"/>
+<channel name="UMN" status="green" value="0.683594" last="1303836484" unit="V"/>
+<channel name="LMN" status="green" value="0.546875" last="1303853231" unit="V"/>
+<channel name="LME" status="green" value="-0.15625" last="1303853236" unit="V"/>
+<channel name="LMZ" status="green" value="-0.625" last="1303853242" unit="V"/>
+<channel name="UME" status="green" value="-0.195312" last="1303839884" unit="V"/>
+</drift>
+</station>
+
+<station code="WAZ" name="Wanganui" n="6159293" e="2680139" status="green" update="1303853809">
+<data status="green" latency="4" last="SOH DAT WAZ/10-HHN/NZ 2011/04/26,21:36:41.6568 00 20 00 100 252 -7549 3113 0"/>
+<voltage status="green" value="14.6488" unit="v"/>
+<time status="green" value="399.182" unit="qual"/>
+</station>
+
+<station code="WCZ" name="Waipu Caves" n="6583802" e="2631972" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT WCZ/10-HHE/NZ 2011/04/26,21:36:31.0583 00 00 00 100 507 -233 1025 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="64.08" unit="mA"/>
+<time status="green" value="51.8058" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+</station>
+
+<station code="WEL" name="Wellington" n="5989915" e="2658093" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT WEL/10-HHE/NZ 2011/04/26,21:36:41.9484 00 00 00 100 242 1713 7045 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="64" unit="mA"/>
+<time status="green" value="50.215" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="1.17188" update="1303846643" unit="V">
+<channel name="VME" status="green" value="0.46875" last="1303846639" unit="V"/>
+<channel name="VMN" status="green" value="0.625" last="1303846639" unit="V"/>
+<channel name="VMZ" status="green" value="1.17188" last="1303846639" unit="V"/>
+</drift>
+</station>
+
+<station code="WHZ" name="Wether Hill Road" n="5467462" e="2117917" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT WHZ/10-HHZ/NZ 2011/04/26,21:36:38.9756 00 20 00 100 474 -357 2204 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="green" value="324" unit="qual"/>
+<temperature status="green" value="11.95" unit="C"/>
+<drift status="green" value="-0.878906" update="1303839901" unit="V">
+<channel name="UMZ" status="green" value="-0.878906" last="1303835902" unit="V"/>
+<channel name="UMN" status="green" value="0.195312" last="1303836602" unit="V"/>
+<channel name="UME" status="green" value="0" last="1303828802" unit="V"/>
+</drift>
+</station>
+
+<station code="WKZ" name="Wanaka" n="5590281" e="2195155" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT WKZ/20-BNE/NZ 2011/04/26,21:36:27.5261 00 20 00 50 649 -152676 -152667 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="59" unit="mA"/>
+<time status="green" value="90" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+<drift status="green" value="-0.625" update="1303849085" unit="V">
+<channel name="VME" status="green" value="-0.625" last="1303849050" unit="V"/>
+<channel name="VMN" status="green" value="-0.234375" last="1303849060" unit="V"/>
+<channel name="VMZ" status="green" value="0" last="1303849060" unit="V"/>
+</drift>
+</station>
+
+<station code="WVZ" name="Waitaha Valley" n="5790064" e="2325714" status="purple" update="1303853809">
+<data status="green" latency="4" last="SOH DAT WVZ/10-HHE/NZ 2011/04/26,21:36:40.9268 00 20 00 100 448 -3369 2767 0"/>
+<voltage status="green" value="14" unit="v"/>
+<time status="purple" message="GPS clock info older than 1 day." value="405" unit="qual"/>
+<temperature status="green" value="11.2667" unit="C"/>
+<drift status="green" value="-1.78223" update="1303853323" unit="V">
+<channel name="UMZ" status="green" value="0.78125" last="1303833905" unit="V"/>
+<channel name="UMN" status="green" value="-1.78223" last="1303821605" unit="V"/>
+<channel name="LMN" status="green" value="-1.48438" last="1303853180" unit="V"/>
+<channel name="LME" status="green" value="-0.546875" last="1303853192" unit="V"/>
+<channel name="LMZ" status="green" value="0.625" last="1303853198" unit="V"/>
+<channel name="UME" status="green" value="-0.683594" last="1303831305" unit="V"/>
+</drift>
+</station>
+
+<station code="ALRZ" name="Allen Road" n="6288079" e="2801371" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT ALRZ/10-EHZ/RT 2011/04/26,21:36:43.7683 00 00 00 100 420 504 701 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="56.0714" unit="mA"/>
+<time status="green" value="46.3814" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="EDRZ" name="Edgecumbe" n="6337227" e="2837984" status="red" update="1303853809">
+<data status="green" latency="1" last="SOH DAT EDRZ/10-EHE/RT 2011/04/26,21:36:40.4283 00 00 00 100 404 113 632 0"/>
+<voltage status="red" message="Voltage has dropped below 12.7 volts." value="12.6" unit="v"/>
+<current status="green" value="60.7778" unit="mA"/>
+<time status="green" value="46.3606" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="GRRZ" name="Galatos Road" n="6312369" e="2781896" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT GRRZ/10-EHE/RT 2011/04/26,21:36:44.2583 00 00 00 100 367 91 626 0"/>
+<voltage status="green" value="12.46" unit="v"/>
+<current status="green" value="53.7778" unit="mA"/>
+<time status="green" value="46.2899" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="HLRZ" name="Highlands Station" n="6322444" e="2803463" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT HLRZ/10-EHZ/RT 2011/04/26,21:36:38.3183 00 00 00 100 686 439 502 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="45" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="HRRZ" name="Handcock Road" n="6307338" e="2796913" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT HRRZ/10-EHE/RT 2011/04/26,21:36:41.8183 00 00 00 100 607 52 160 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="54" unit="mA"/>
+<time status="green" value="44.2497" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="HSRZ" name="Hossack Road" n="6316205" e="2793839" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT HSRZ/10-EHZ/RT 2011/04/26,21:36:39.5283 00 00 00 100 574 578 706 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="56" unit="mA"/>
+<time status="green" value="45.5825" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="KARZ" name="Kaharoa" n="6348490" e="2794959" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT KARZ/10-EHZ/RT 2011/04/26,21:36:38.8483 00 00 00 100 619 1538 1611 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="57.08" unit="mA"/>
+<time status="green" value="44.5784" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="KMRZ" name="Kaimai" n="6368780" e="2769042" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KMRZ/10-EHE/RT 2011/04/26,21:36:43.8883 00 00 00 100 395 101 534 0"/>
+<voltage status="green" value="12.75" unit="v"/>
+<current status="green" value="54.2963" unit="mA"/>
+<time status="green" value="46.8599" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="LIRZ" name="Lichenstein Road" n="6349919" e="2807324" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT LIRZ/10-EHN/RT 2011/04/26,21:36:42.1083 00 00 00 100 439 453 919 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="51.6897" unit="mA"/>
+<time status="green" value="56.2219" unit="qual"/>
+<temperature status="green" value="21" unit="C"/>
+</station>
+
+<station code="MARZ" name="Manawahe" n="6350943" e="2832881" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT MARZ/10-EHN/RT 2011/04/26,21:36:41.7583 00 00 00 100 429 -310 145 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="53.5" unit="mA"/>
+<time status="green" value="47.8849" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="MKRZ" name="Makatiti" n="6334645" e="2814005" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MKRZ/10-EHN/RT 2011/04/26,21:36:45.3083 00 00 00 100 209 -2877 3115 0"/>
+<voltage status="green" value="12.6" unit="v"/>
+<current status="green" value="59.88" unit="mA"/>
+<time status="green" value="50.699" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="MYRZ" name="Mayor Island" n="6430571" e="2797649" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MYRZ/10-EHE/RT 2011/04/26,21:36:43.8783 00 00 00 100 392 -55 1916 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="53.963" unit="mA"/>
+<time status="green" value="48.5645" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+</station>
+
+<station code="OMRZ" name="Omania" n="6338539" e="2805778" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT OMRZ/10-EHZ/RT 2011/04/26,21:36:40.8583 00 00 00 100 681 528 568 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="53.9583" unit="mA"/>
+<time status="green" value="46.4632" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="OPRZ" name="Ohinepanea" n="6366962" e="2822988" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT OPRZ/10-HHE/RT 2011/04/26,21:36:39.9583 00 00 00 100 439 -889 3118 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="51" unit="mA"/>
+<time status="green" value="49.4286" unit="qual"/>
+<temperature status="green" value="20" unit="C"/>
+<drift status="green" value="-2.26562" update="1303853378" unit="V">
+<channel name="VME" status="green" value="-2.26562" last="1303853367" unit="V"/>
+<channel name="VMN" status="green" value="-1.25" last="1303853367" unit="V"/>
+<channel name="VMZ" status="green" value="-0.078125" last="1303853367" unit="V"/>
+</drift>
+</station>
+
+<station code="PRRZ" name="Plateau Road" n="6294921" e="2805977" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PRRZ/10-EHZ/RT 2011/04/26,21:36:42.9683 00 00 00 100 497 554 668 0"/>
+<voltage status="green" value="12.9" unit="v"/>
+<current status="green" value="57.7241" unit="mA"/>
+<time status="green" value="46.767" unit="qual"/>
+<temperature status="green" value="19" unit="C"/>
+</station>
+
+<station code="RRRZ" name="Republican Road" n="6312236" e="2817289" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT RRRZ/10-EHE/RT 2011/04/26,21:36:41.0183 00 00 00 100 545 739 909 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="56" unit="mA"/>
+<time status="green" value="45.4771" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="TARZ" name="Mount Tarawera" n="6323743" e="2816971" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TARZ/10-EHE/RT 2011/04/26,21:36:39.1483 00 00 00 100 601 997 1091 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="60.6667" unit="mA"/>
+<time status="green" value="49.7379" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="TGRZ" name="Tauranga" n="6380756" e="2797592" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TGRZ/10-EHE/RT 2011/04/26,21:36:40.0483 00 00 00 100 412 5 561 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="54.2222" unit="mA"/>
+<time status="green" value="53.2926" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="UTU" name="Utuhina" n="6331307" e="2789909" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT UTU/10-EHN/RT 2011/04/26,21:36:43.4883 00 00 00 100 408 3706 4139 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="59.3704" unit="mA"/>
+<time status="green" value="47.3384" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="WIZ" name="White Island" n="6399788" e="2880416" status="red" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WIZ/10-HHE/RT 2011/04/26,21:36:43.0583 00 00 00 100 318 -1838 2408 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="81" unit="mA"/>
+<time status="red" message="GPS clock quality less than or equal to 20." value="10" unit="qual"/>
+<temperature status="green" value="21" unit="C"/>
+<drift status="green" value="-0.78125" update="1303852901" unit="V">
+<channel name="VME" status="green" value="-0.78125" last="1303852900" unit="V"/>
+<channel name="VMN" status="green" value="0.078125" last="1303852900" unit="V"/>
+<channel name="VMZ" status="green" value="0.390625" last="1303852900" unit="V"/>
+</drift>
+</station>
+
+<station code="WPRZ" name="Whakapapataringa" n="6293360" e="2785810" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WPRZ/10-EHE/RT 2011/04/26,21:36:43.1883 00 00 00 100 433 -571 152 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="54" unit="mA"/>
+<time status="green" value="52.0485" unit="qual"/>
+<temperature status="green" value="18" unit="C"/>
+</station>
+
+<station code="HATZ" name="Hinemaiaia" n="6252405" e="2778253" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT HATZ/10-EHN/TP 2011/04/26,21:36:42.9683 00 00 00 100 381 568 877 0"/>
+<voltage status="green" value="13.5" unit="v"/>
+<current status="green" value="53.1923" unit="mA"/>
+<time status="green" value="49.5437" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="KATZ" name="Kakaramea" n="6244194" e="2743528" status="green" update="1303853809">
+<data status="green" latency="255" last="SOH DAT KATZ/10-EHZ/TP 2011/04/26,21:32:27.0983 00 00 01 100 426 -151397 -151230 0"/>
+<voltage status="green" value="14.145" unit="v"/>
+<current status="green" value="49.7" unit="mA"/>
+<time status="green" value="48.2244" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="KUTZ" name="Kaahu Road" n="6297738" e="2756367" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT KUTZ/10-EHN/TP 2011/04/26,21:36:44.1583 00 00 00 100 359 143 726 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="57.4615" unit="mA"/>
+<time status="green" value="47.4577" unit="qual"/>
+<temperature status="green" value="17" unit="C"/>
+</station>
+
+<station code="RATZ" name="Rangitukua" n="6256013" e="2750601" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT RATZ/10-HHN/TP 2011/04/26,21:36:44.4283 00 00 00 100 319 -2118 1317 0"/>
+<voltage status="green" value="14.6056" unit="v"/>
+<current status="green" value="67.1538" unit="mA"/>
+<time status="green" value="56.2718" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+<drift status="green" value="0.625" update="1303852942" unit="V">
+<channel name="VME" status="green" value="0.625" last="1303852940" unit="V"/>
+<channel name="VMN" status="green" value="-0.234375" last="1303852940" unit="V"/>
+<channel name="VMZ" status="green" value="0.3125" last="1303852940" unit="V"/>
+</drift>
+</station>
+
+<station code="RITZ" name="Rihia Road" n="6243501" e="2757690" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT RITZ/10-EHN/TP 2011/04/26,21:36:44.0283 00 00 00 100 303 -705 879 0"/>
+<voltage status="green" value="12.75" unit="v"/>
+<current status="green" value="57" unit="mA"/>
+<time status="green" value="54.6394" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="WATZ" name="Waihaha" n="6273709" e="2747762" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT WATZ/10-EHN/TP 2011/04/26,21:36:43.9083 00 00 00 100 360 160 524 0"/>
+<voltage status="green" value="12.6" unit="v"/>
+<current status="green" value="56.7407" unit="mA"/>
+<time status="green" value="49.1942" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="WHTZ" name="Whakaroa" n="6277740" e="2767412" status="green" update="1303853809">
+<data status="green" latency="0" last="SOH DAT WHTZ/10-EHE/TP 2011/04/26,21:36:44.1383 00 00 00 100 355 275 846 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="57.32" unit="mA"/>
+<time status="green" value="52.0874" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="DREZ" name="Durham Road" n="6223324" e="2613797" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT DREZ/10-EHN/TR 2011/04/26,21:36:45.3783 00 00 00 100 243 -1167 1486 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="56.8" unit="mA"/>
+<time status="green" value="49.5798" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="KHEZ" name="Kahui Hut" n="6211836" e="2597552" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT KHEZ/10-EHZ/TR 2011/04/26,21:36:43.6483 00 00 00 100 335 392 1167 0"/>
+<voltage status="green" value="13.35" unit="v"/>
+<current status="green" value="56" unit="mA"/>
+<time status="green" value="57.7975" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+</station>
+
+<station code="LREZ" name="Lake Rotokare" n="6192942" e="2630736" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT LREZ/10-EHN/TR 2011/04/26,21:36:41.1283 00 00 00 100 387 260 723 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="57.84" unit="mA"/>
+<time status="green" value="46.5368" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="MHEZ" name="Mangahewa" n="6235687" e="2624535" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT MHEZ/10-EHZ/TR 2011/04/26,21:36:42.7183 00 00 00 100 329 -329 788 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="52.7308" unit="mA"/>
+<time status="green" value="48.4189" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="NEZ" name="North Egmont" n="6214409" e="2604587" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT NEZ/11-EH1/TR 2011/04/26,21:36:43.8283 00 00 00 100 360 -436 377 0"/>
+<voltage status="green" value="13.95" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="49.6269" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="NMEZ" name="Namu Road" n="6198757" e="2585599" status="green" update="1303853809">
+<data status="green" latency="3" last="SOH DAT NMEZ/10-EHN/TR 2011/04/26,21:36:42.8683 00 00 00 100 331 -53 425 0"/>
+<voltage status="green" value="14.1" unit="v"/>
+<current status="green" value="52.6667" unit="mA"/>
+<time status="green" value="56.2039" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="NWEZ" name="Newall Road" n="6214120" e="2584889" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT NWEZ/10-EHE/TR 2011/04/26,21:36:44.0283 00 00 00 100 206 -10997 12473 0"/>
+<voltage status="green" value="13.2" unit="v"/>
+<current status="green" value="73.8" unit="mA"/>
+<time status="green" value="59.1623" unit="qual"/>
+<temperature status="green" value="16" unit="C"/>
+</station>
+
+<station code="PKE" name="Pukeiti" n="6223002" e="2595284" status="red" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PKE/10-EHE/TR 2011/04/26,21:36:44.2683 00 00 00 100 320 -186 977 0"/>
+<voltage status="red" message="Voltage has dropped below 12.7 volts." value="12.45" unit="v"/>
+<current status="green" value="53.9259" unit="mA"/>
+<time status="green" value="47.6352" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="PREZ" name="Palmer Road" n="6206361" e="2609936" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PREZ/10-EHE/TR 2011/04/26,21:36:44.2683 00 00 00 100 279 -4485 3798 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="63" unit="mA"/>
+<time status="green" value="49.344" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="ANWZ" name="Angora Road" n="6077123" e="2804643" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT ANWZ/10-EHE/WL 2011/04/26,21:36:42.4683 00 00 00 100 403 59 546 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="57.0769" unit="mA"/>
+<time status="green" value="49.6644" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+</station>
+
+<station code="BHW" name="Baring Head" n="5975947" e="2666418" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT BHW/10-EHN/WL 2011/04/26,21:36:43.1183 00 00 00 100 341 471 897 0"/>
+<voltage status="green" value="13.8" unit="v"/>
+<current status="green" value="51.4074" unit="mA"/>
+<time status="green" value="51.7975" unit="qual"/>
+<temperature status="green" value="15" unit="C"/>
+</station>
+
+<station code="BSWZ" name="Black Birch Station" n="5943200" e="2582865" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT BSWZ/10-EHE/WL 2011/04/26,21:36:38.1783 00 00 00 100 686 268 339 0"/>
+<voltage status="green" value="13.65" unit="v"/>
+<current status="green" value="79.1538" unit="mA"/>
+<time status="green" value="46.8793" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="CAW" name="Cannon Point" n="6009002" e="2683536" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT CAW/10-EHZ/WL 2011/04/26,21:36:42.5283 00 00 00 100 532 690 747 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="53.64" unit="mA"/>
+<time status="green" value="51.3232" unit="qual"/>
+<temperature status="green" value="7" unit="C"/>
+</station>
+
+<station code="CMWZ" name="Cape Campbell" n="5939075" e="2610944" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT CMWZ/10-EHN/WL 2011/04/26,21:36:44.7183 00 00 00 100 325 116 807 0"/>
+<voltage status="green" value="12.6" unit="v"/>
+<current status="green" value="81.1111" unit="mA"/>
+<time status="green" value="50.8821" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="CPWZ" name="Castlepoint" n="6028049" e="2779649" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT CPWZ/10-EHZ/WL 2011/04/26,21:36:42.1283 00 00 00 100 416 367 1035 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="58" unit="mA"/>
+<time status="green" value="46.491" unit="qual"/>
+<temperature status="green" value="14" unit="C"/>
+</station>
+
+<station code="DUWZ" name="DUrville Island" n="6044565" e="2587756" status="green" update="1303853809">
+<data status="green" latency="5" last="SOH DAT DUWZ/10-HHE/WL 2011/04/26,21:36:41.5383 00 00 00 100 243 -4380 2809 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="68" unit="mA"/>
+<time status="green" value="51.3301" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+<drift status="red" value="5.39062" update="1303849196" unit="V">
+<channel name="VME" status="red" value="5.39062" last="1303849180" unit="V"/>
+<channel name="VMN" status="red" value="4.21875" last="1303849180" unit="V"/>
+<channel name="VMZ" status="green" value="0.3125" last="1303849180" unit="V"/>
+</drift>
+</station>
+
+<station code="HOWZ" name="Holdsworth Station" n="6031314" e="2721877" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT HOWZ/10-EHN/WL 2011/04/26,21:36:39.3283 00 00 00 100 645 130 174 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="55.8462" unit="mA"/>
+<time status="green" value="45.4008" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+</station>
+
+<station code="KIW" name="Kapiti Island" n="6036647" e="2670973" status="red" update="1303853809">
+<data status="green" latency="1" last="SOH DAT KIW/10-EHE/WL 2011/04/26,21:36:41.8983 00 00 00 100 483 1061 1148 0"/>
+<voltage status="red" message="Voltage has dropped below 11.7 volts." value="11.55" unit="v"/>
+<current status="green" value="58.36" unit="mA"/>
+<time status="green" value="49.2261" unit="qual"/>
+<temperature status="green" value="7" unit="C"/>
+</station>
+
+<station code="MSWZ" name="Moikau Station" n="5974357" e="2698023" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MSWZ/10-EHZ/WL 2011/04/26,21:36:40.3183 00 00 00 100 686 588 630 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="59.12" unit="mA"/>
+<time status="green" value="45.3606" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+</station>
+
+<station code="MTW" name="Mount Morrison" n="6002417" e="2719914" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT MTW/10-EHE/WL 2011/04/26,21:36:44.4183 00 00 00 100 345 -276 945 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="57.1852" unit="mA"/>
+<time status="green" value="48.1012" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+</station>
+
+<station code="OGWZ" name="Otaki Gorge" n="6041041" e="2693057" status="red" update="1303853809">
+<data status="green" latency="2" last="SOH DAT OGWZ/10-EHN/WL 2011/04/26,21:36:43.9183 00 00 00 100 326 -230 1106 0"/>
+<voltage status="red" message="Voltage has dropped below 11.7 volts." value="11.25" unit="v"/>
+<current status="green" value="67.9259" unit="mA"/>
+<time status="green" value="51.9847" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="OHWZ" name="Ohakea" n="6108557" e="2707054" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT OHWZ/10-EHE/WL 2011/04/26,21:36:42.3383 00 00 00 100 340 73 1362 0"/>
+<voltage status="green" value="14.4" unit="v"/>
+<current status="green" value="44" unit="mA"/>
+<time status="green" value="50.251" unit="qual"/>
+<temperature status="green" value="9" unit="C"/>
+</station>
+
+<station code="PAWZ" name="Paruwai Farm" n="5977765" e="2712959" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT PAWZ/10-EHE/WL 2011/04/26,21:36:41.3683 00 00 00 100 622 752 808 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="82.1379" unit="mA"/>
+<time status="green" value="53.9293" unit="qual"/>
+<temperature status="green" value="6" unit="C"/>
+</station>
+
+<station code="PLWZ" name="Palliser" n="5957319" e="2698029" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT PLWZ/10-EHZ/WL 2011/04/26,21:36:41.8683 00 00 00 100 456 587 689 0"/>
+<voltage status="green" value="12.45" unit="v"/>
+<current status="green" value="59.2593" unit="mA"/>
+<time status="green" value="46.7892" unit="qual"/>
+<temperature status="green" value="10" unit="C"/>
+</station>
+
+<station code="POWZ" name="Post Office Road" n="6086791" e="2744944" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT POWZ/10-EHZ/WL 2011/04/26,21:36:40.3183 00 00 00 100 634 315 406 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="53.5185" unit="mA"/>
+<time status="green" value="48.9792" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="PRWZ" name="Pori Road" n="6068143" e="2761562" status="green" update="1303853809">
+<data status="green" latency="2" last="SOH DAT PRWZ/10-EHZ/WL 2011/04/26,21:36:42.8683 00 00 00 100 442 553 658 0"/>
+<voltage status="green" value="13.05" unit="v"/>
+<current status="green" value="57.6154" unit="mA"/>
+<time status="green" value="47.516" unit="qual"/>
+<temperature status="green" value="13" unit="C"/>
+</station>
+
+<station code="TCW" name="Tory Channel" n="5998815" e="2617018" status="green" update="1303853809">
+<data status="green" latency="1908" last="SOH DAT TCW/10-EHN/WL 2011/04/26,21:04:55.2283 00 00 00 100 473 532 635 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="71.5556" unit="mA"/>
+<time status="green" value="54" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+<drift status="purple" value="0" update="1301359088" unit="V">
+<channel name="VME" status="purple" message="Drift info older than 1 week.
+" value="0" last="1301358910" unit="V"/>
+<channel name="VMN" status="purple" message="Drift info older than 1 week.
+" value="0" last="1301358910" unit="V"/>
+<channel name="VMZ" status="purple" message="Drift info older than 1 week.
+" value="0" last="1301358910" unit="V"/>
+</drift>
+</station>
+
+<station code="TIWZ" name="Tintock" n="6043816" e="2753532" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TIWZ/10-EHN/WL 2011/04/26,21:36:41.8583 00 00 00 100 398 492 779 0"/>
+<voltage status="green" value="12" unit="v"/>
+<current status="green" value="76.5385" unit="mA"/>
+<time status="green" value="46.3897" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="TMWZ" name="Te Maipa" n="6007111" e="2752731" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TMWZ/10-EHZ/WL 2011/04/26,21:36:43.1683 00 00 00 100 393 45 328 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="59.4074" unit="mA"/>
+<time status="green" value="46.62" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+<station code="TRWZ" name="Traveller" n="5975297" e="2734728" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TRWZ/10-EHE/WL 2011/04/26,21:36:39.1783 00 00 00 100 686 170 269 0"/>
+<voltage status="green" value="12.15" unit="v"/>
+<current status="green" value="57.0833" unit="mA"/>
+<time status="green" value="50.2469" unit="qual"/>
+<temperature status="green" value="11" unit="C"/>
+</station>
+
+<station code="TUWZ" name="Tuamarina" n="5974849" e="2588796" status="green" update="1303853809">
+<data status="green" latency="1" last="SOH DAT TUWZ/10-EHE/WL 2011/04/26,21:36:40.3283 00 00 00 100 522 272 346 0"/>
+<voltage status="green" value="12.3" unit="v"/>
+<current status="green" value="56.1852" unit="mA"/>
+<time status="green" value="52.8988" unit="qual"/>
+<temperature status="green" value="12" unit="C"/>
+</station>
+
+</seis_soh>

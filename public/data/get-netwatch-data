@@ -1,0 +1,5 @@
+## crontab -e
+## */1 * * * * /var/www/html/hazard/data/get-netwatch-data >> /tmp/getnetwatch_cron.log
+wget --user=geonet  --password=r0cket --output-document='avalon_gps_soh.xml'  http://bb-gracefield.geonet.org.nz/soh/gps_soh.xml
+wget --user=geonet  --password=r0cket --output-document='avalon_seis_soh.xml'  http://bb-gracefield.geonet.org.nz/soh/seis_soh.xml
+wget --user=geonet  --password=r0cket --output-document='wairakei_seis_soh.xml'  http://bb-wairakei.geonet.org.nz/soh/seis_soh.xml

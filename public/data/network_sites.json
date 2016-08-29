@@ -1,0 +1,81 @@
+
+{ "type": "FeatureCollection",
+  "features": [
+ { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [174.90916288605084,-40.86082294869175 ]},
+      "properties": {"site":"kiw.wl",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [175.54725621354902,-39.29876083479125 ]},
+      "properties": {"site":"trvz.ch",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [169.8149202020151,-43.532044652964835 ]},
+      "properties": {"site":"foz.nz",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [175.960558239643,-40.058497657668255 ]},
+      "properties": {"site":"tsz.nz",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [174.83176770595378,-36.600168600080565 ]},
+      "properties": {"site":"abaz.ak",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.77281,-38.05252 ]},
+      "properties": {"site":"kq03.nx",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.75506,-38.03599999908413 ]},
+      "properties": {"site":"kq05.nx",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.72218,-38.0403499990841 ]},
+      "properties": {"site":"kq04.nx",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [175.75227818991885,-39.40669350073 ]},
+      "properties": {"site":"movz.ch",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.73998,-38.0762 ]},
+      "properties": {"site":"kq02.nx",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [175.5629764805076,-39.27522038761127 ]},
+      "properties": {"site":"drz.ch",
+      "status":"red",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [166.68013683556123,-46.16619767528289 ]},
+      "properties": {"site":"pyz.nz",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.19923154934315,-39.91331507043696 ]},
+      "properties": {"site":"pnhz.hb",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [175.6942690761873,-38.97484459034029 ]},
+      "properties": {"site":"katz.tp",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }, { "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [176.74937,-38.05468 ]},
+      "properties": {"site":"kq01.nx",
+      "status":"purple",
+      "popupContent":"This will be a message about the issue"}
+      }]}
+
+

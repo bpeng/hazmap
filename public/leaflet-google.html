@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GeoNet Map -- OSM AND GOOGLE SATELLITE</title>
+    <meta charset="utf-8"/>
+    <link type="text/css" rel="stylesheet" href="//static.geonet.org.nz/geonet-2.0.3/css/bootstrap-geonet.css"/>
+    <link rel="stylesheet"
+          href="//static.geonet.org.nz/leaflet/0.7.7/leaflet.css"/>
+
+    <script src="//static.geonet.org.nz/leaflet/0.7.7/leaflet.js"></script>
+
+    <script src="//maps.google.com/maps/api/js?v=3&key=AIzaSyCe9XrHmE40diC5lmj6SwGa9IsrlloGIH4"></script>
+    <script src="js/leaflet-google.js"></script>
+
+</head>
+<body>
+
+<div class="container container-background">
+    <div class="page-header">
+        <h1>GeoNet Map -- OSM map with Google satellite </h1>
+    </div>
+
+    <div id="map" style="width: 512px; height: 600px" > </div>
+
+    <script>
+    var map = L.map('map', {
+                attributionControl: false,
+                worldCopyJump: false
+            });
+
+    var osmGeonetUrl = '//{s}.geonet.org.nz/osm/tiles/{z}/{x}/{y}.png',//
+    cloudmadeAttribution = '',
+    osmLayerGeonet = new L.TileLayer(osmGeonetUrl, {
+        minZoom : 1,
+        maxZoom : 18,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: '//static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:[ 'static1', 'static2', 'static3', 'static4', 'static5']
+    });
+
+
+    var osmMap = L.layerGroup([osmLayerGeonet]);
+
+    var googleSatellite = new L.Google('SATELLITE');  //ROADMAP, TERRAIN
+
+    //map switcher
+    var baseLayers = {
+        "Map" : osmMap,
+        "Satellite" : googleSatellite
+    };
+
+    map.addLayer(osmMap);
+
+    L.control.layers(baseLayers).addTo(map);
+
+    map.setView(new L.LatLng(-41.1, 174.0), 5);
+		
+
+    </script>
+
+    <h5>Notes</h5>
+    <p>
+     Investigate <b>Google Satellite image</b> tiles as base layer in <b>Leaflet</b> map,
+     <a href="https://gist.github.com/crofty/2197701" >using Leaflet plugin suggested by James Croft </a>
+    </p>
+
+
+</div>
+
+</body>
+</html>

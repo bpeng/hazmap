@@ -1,0 +1,970 @@
+<gps_soh>
+<station code="AHTI" name="Ahititi" n="6297841" e="2950561" status="green" update="1303853817">
+<data status="green" last="SOH DAT AHTI_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="AKTO" name="Akitio Station" n="6068284" e="2803122" status="green" update="1303853817">
+<data status="green" last="SOH DAT AKTO_20110426_190000.dat 1303851336"/>
+<voltage status="green" value="12.14" unit="v"/>
+<temperature status="green" value="20" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="ANAU" name="Anaura Bay" n="6312489" e="2972876" status="green" update="1303853817">
+<data status="green" last="SOH DAT ANAU_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="ARTA" name="Aratiatia Dam" n="6282573" e="2783162" status="green" update="1303853817">
+<data status="green" last="SOH DAT ARTA_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="AVLN" name="Avalon Sound Stage" n="5999350" e="2672100" status="green" update="1303853817">
+<data status="green" last="SOH DAT AVLN_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="BHST" name="Black Hill Station" n="6186107" e="2773456" status="green" update="1303853817">
+<data status="green" last="SOH DAT BHST_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="BIRF" name="Birch Farm" n="6053443" e="2784338" status="green" update="1303853817">
+<data status="green" last="SOH DAT BIRF_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.78" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="BTHL" name="Battery Hill" n="5982960" e="2688790" status="green" update="1303853817">
+<data status="green" last="SOH DAT BTHL_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.49" unit="v"/>
+<temperature status="green" value="25" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="CAST" name="Castlepoint Station" n="6028047" e="2779646" status="green" update="1303853817">
+<data status="green" last="SOH DAT CAST_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="11.95" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="CKID" name="Cape Kidnappers" n="6163905" e="2859685" status="green" update="1303853817">
+<data status="green" last="SOH DAT CKID_20110426_200000.dat 1303852242"/>
+<voltage status="green" value="12.00" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="CLIM" name="Mt. Climie" n="6004682" e="2690071" status="green" update="1303853817">
+<data status="green" last="SOH DAT CLIM_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="CMBL" name="Cape Campbell No. 2" n="5939072" e="2610943" status="green" update="1303853817">
+<data status="green" last="SOH DAT CMBL_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="CNST" name="Carnagh Station" n="6288541" e="2964473" status="green" update="1303853817">
+<data status="green" last="SOH DAT CNST_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="DURV" name="DUrville" n="6044559" e="2587752" status="green" update="1303853817">
+<data status="green" last="SOH DAT DURV_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="FRTN" name="Frasertown" n="6242230" e="2892203" status="green" update="1303853817">
+<data status="green" last="SOH DAT FRTN_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="GNBK" name="Greenbank" n="6122629" e="2700858" status="green" update="1303853817">
+<data status="green" last="SOH DAT GNBK_20110426_180000.dat 1303848004"/>
+</station>
+
+<station code="GRNG" name="Grange Hill" n="6133677" e="2720032" status="green" update="1303853817">
+<data status="green" last="SOH DAT GRNG_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.22" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="GUNR" name="Gunn Ridge" n="5753954" e="2298529" status="green" update="1303853817">
+<data status="green" last="SOH DAT GUNR_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="HANA" name="Hangaroa" n="6269531" e="2907439" status="green" update="1303853817">
+<data status="green" last="SOH DAT HANA_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="HOLD" name="Holdsworth Station" n="6031323" e="2721886" status="green" update="1303853817">
+<data status="green" last="SOH DAT HOLD_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.09" unit="v"/>
+<temperature status="green" value="23" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="KAHU" name="Kahuranaki" n="6149598" e="2841875" status="green" update="1303853817">
+<data status="green" last="SOH DAT KAHU_20110426_200000.dat 1303852242"/>
+<voltage status="green" value="11.98" unit="v"/>
+<temperature status="green" value="25" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="KAPT" name="Kapiti" n="6036644" e="2670976" status="green" update="1303853817">
+<data status="green" last="SOH DAT KAPT_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="KAWK" name="Kaweka Forest" n="6192205" e="2804644" status="green" update="1303853817">
+<data status="green" last="SOH DAT KAWK_20110426_200030.dat 1303852847"/>
+</station>
+
+<station code="KERE" name="Kereru" n="6168071" e="2799195" status="green" update="1303853817">
+<data status="green" last="SOH DAT KERE_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.20" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="KOKO" name="Kokohu" n="6232585" e="2914093" status="green" update="1303853817">
+<data status="green" last="SOH DAT KOKO_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="KORO" name="Kooro" n="6085696" e="2715704" status="green" update="1303853817">
+<data status="green" last="SOH DAT KORO_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.25" unit="v"/>
+<temperature status="green" value="26" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="KUTA" name="Te Kuta" n="6217789" e="2861574" status="green" update="1303853817">
+<data status="green" last="SOH DAT KUTA_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.70" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="LEVN" name="Moutere No.3" n="6066191" e="2699634" status="green" update="1303853817">
+<data status="green" last="SOH DAT LEVN_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.40" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="LEYL" name="Tangoio No 2" n="6200552" e="2849308" status="green" update="1303853817">
+<data status="green" last="SOH DAT LEYL_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="11.75" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="MAHA" name="Mahakipawa Hill" n="5990298" e="2576476" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAHA_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="MAHI" name="Mahia Peninsula" n="6216353" e="2933957" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAHI_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.33" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="MAKO" name="Makorori" n="6271683" e="2956344" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAKO_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="MANG" name="Mangatainoka River" n="6056546" e="2727656" status="green" update="1303853817">
+<data status="green" last="SOH DAT MANG_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="MATW" name="Matawai" n="6308853" e="2905658" status="green" update="1303853817">
+<data status="green" last="SOH DAT MATW_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.55" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="MCNL" name="McNeill Hill" n="6189028" e="2828105" status="green" update="1303853817">
+<data status="green" last="SOH DAT MCNL_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.28" unit="v"/>
+<temperature status="green" value="25" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="MING" name="Minginui" n="6280594" e="2836532" status="green" update="1303853817">
+<data status="green" last="SOH DAT MING_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="MNHR" name="Manuhara Road" n="6076948" e="2783276" status="green" update="1303853817">
+<data status="green" last="SOH DAT MNHR_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="12.25" unit="v"/>
+<temperature status="green" value="15.9" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="MTBL" name="Mount Blewitt No. 2" n="6110730" e="2725942" status="green" update="1303853817">
+<data status="green" last="SOH DAT MTBL_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.39" unit="v"/>
+<temperature status="green" value="25" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="MTPR" name="Mt Price" n="5760037" e="2295197" status="green" update="1303853817">
+<data status="green" last="SOH DAT MTPR_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="MTQN" name="Mt. Quoin" n="6020366" e="2698525" status="green" update="1303853817">
+<data status="green" last="SOH DAT MTQN_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.41" unit="v"/>
+<temperature status="green" value="17" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="NMAI" name="Naumai" n="6227133" e="2839214" status="green" update="1303853817">
+<data status="green" last="SOH DAT NMAI_20110426_200000.dat 1303853753"/>
+<voltage status="green" value="12.09" unit="v"/>
+<temperature status="green" value="22" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="NRRD" name="North Range Road" n="6087506" e="2744401" status="green" update="1303853817">
+<data status="green" last="SOH DAT NRRD_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="11.92" unit="v"/>
+<temperature status="green" value="22" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="NRSW" name="Norsewood" n="6116445" e="2782722" status="green" update="1303853817">
+<data status="green" last="SOH DAT NRSW_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="12.21" unit="v"/>
+<temperature status="green" value="16.1" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="OHIN" name="Ohingaiti" n="6139268" e="2748529" status="green" update="1303853817">
+<data status="green" last="SOH DAT OHIN_20110426_190000.dat 1303851336"/>
+</station>
+
+<station code="OKOH" name="Okoha" n="6020277" e="2599160" status="green" update="1303853817">
+<data status="green" last="SOH DAT OKOH_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.33" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="OPTK" name="Opotiki" n="6341646" e="2888093" status="green" update="1303853817">
+<data status="green" last="SOH DAT OPTK_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.53" unit="v"/>
+<temperature status="green" value="32" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="OROA" name="Oueroa" n="6115850" e="2823708" status="green" update="1303853817">
+<data status="green" last="SOH DAT OROA_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="OTAK" name="Tuapaka Z" n="6041057" e="2693066" status="green" update="1303853817">
+<data status="green" last="SOH DAT OTAK_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="PAEK" name="Paekakariki Hill" n="6018707" e="2674145" status="green" update="1303853817">
+<data status="green" last="SOH DAT PAEK_20110426_200000.dat 1303851939"/>
+</station>
+
+<station code="PAKI" name="Pakihiroa" n="6355013" e="2956982" status="green" update="1303853817">
+<data status="green" last="SOH DAT PAKI_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.49" unit="v"/>
+<temperature status="green" value="30" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="PALI" name="Cape Palliser CGPS" n="5957313" e="2698028" status="green" update="1303853817">
+<data status="green" last="SOH DAT PALI_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.14" unit="v"/>
+<temperature status="green" value="21" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PARI" name="Paritu Road" n="6241963" e="2933295" status="green" update="1303853817">
+<data status="green" last="SOH DAT PARI_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="13.32" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PARW" name="Paruwai" n="5977766" e="2712963" status="green" update="1303853817">
+<data status="green" last="SOH DAT PARW_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="11.80" unit="v"/>
+<temperature status="green" value="21" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PAWA" name="Pawanui" n="6123094" e="2839661" status="green" update="1303853817">
+<data status="green" last="SOH DAT PAWA_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="PKNO" name="Parikino" n="6153331" e="2696825" status="green" update="1303853817">
+<data status="green" last="SOH DAT PKNO_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="PNUI" name="Pukenui" n="6138251" e="2783546" status="green" update="1303853817">
+<data status="green" last="SOH DAT PNUI_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="11.88" unit="v"/>
+<temperature status="green" value="22" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PORA" name="30 No. 2 Porangahau" n="6098033" e="2819099" status="green" update="1303853817">
+<data status="green" last="SOH DAT PORA_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.09" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PRTU" name="Paparatu" n="6254835" e="2917867" status="green" update="1303853817">
+<data status="green" last="SOH DAT PRTU_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="PTOI" name="Puketoi" n="6062917" e="2763779" status="green" update="1303853817">
+<data status="green" last="SOH DAT PTOI_20110426_200000.dat 1303852242"/>
+<voltage status="green" value="12.32" unit="v"/>
+<temperature status="green" value="19" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PUKE" name="Puketiti" n="6334472" e="2971187" status="green" update="1303853817">
+<data status="green" last="SOH DAT PUKE_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="RAHI" name="Arahi" n="6246123" e="2864277" status="green" update="1303853817">
+<data status="green" last="SOH DAT RAHI_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RAKW" name="Raukawa" n="6155680" e="2820255" status="green" update="1303853817">
+<data status="green" last="SOH DAT RAKW_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="RAUL" name="Raoul Island" n="-1188876293" e="-1672761597" status="green" update="1303853817">
+<data status="green" last="SOH DAT RAUL_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.49" unit="v"/>
+<temperature status="green" value="38" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="RAWI" name="Rawiri" n="6291406" e="2895102" status="green" update="1303853817">
+<data status="green" last="SOH DAT RAWI_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="RDLV" name="Ardelve" n="5999427" e="2711668" status="green" update="1303853817">
+<data status="green" last="SOH DAT RDLV_20110426_190000.dat 1303851336"/>
+</station>
+
+<station code="RGAR" name="Allen Road" n="6288078" e="2801373" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGAR_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGAW" name="Awakeri" n="6348096" e="2852229" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGAW_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.55" unit="v"/>
+<temperature status="green" value="33" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGCR" name="Cookson Road" n="6338688" e="2806334" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGCR_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.22" unit="v"/>
+<temperature status="green" value="29" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGHL" name="Highlands Station" n="6322442" e="2803471" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGHL_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="RGHR" name="Handcock Road" n="6307804" e="2797301" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGHR_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.11" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGKA" name="Kaharoa" n="6348507" e="2794940" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGKA_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGKW" name="Kawerau" n="6343089" e="2841176" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGKW_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.00" unit="v"/>
+<temperature status="green" value="32" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGLI" name="Lichenstein Road" n="6349908" e="2807440" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGLI_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGMK" name="Makatiti" n="6334656" e="2814001" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGMK_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGMT" name="Matata" n="6358466" e="2837592" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGMT_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGON" name="Ongahoro" n="6322313" e="2792954" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGON_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGOP" name="Ohinepanea" n="6366782" e="2823098" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGOP_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.27" unit="v"/>
+<temperature status="green" value="31" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGRE" name="Rotoehu" n="6343458" e="2819092" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGRE_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="13.49" unit="v"/>
+<temperature status="green" value="30" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="RGRR" name="Republican Road" n="6312253" e="2817288" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGRR_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGTA" name="Tarawera" n="6323940" e="2817001" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGTA_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGUT" name="Utuhina" n="6331299" e="2789941" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGUT_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="RGWV" name="Waikite Valley Road" n="6311735" e="2790699" status="green" update="1303853817">
+<data status="green" last="SOH DAT RGWV_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="RIPA" name="Ripia" n="6220647" e="2811769" status="green" update="1303853817">
+<data status="green" last="SOH DAT RIPA_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="SNST" name="Shannon Station" n="6260198" e="2887660" status="green" update="1303853817">
+<data status="green" last="SOH DAT SNST_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="TAKP" name="Takapari Road" n="6122892" e="2762713" status="green" update="1303853817">
+<data status="green" last="SOH DAT TAKP_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="TAUW" name="Tauwhareparae" n="6325637" e="2948594" status="green" update="1303853817">
+<data status="green" last="SOH DAT TAUW_20110426_200000.tgd 1303852545"/>
+</station>
+
+<station code="TEMA" name="Te Maipa" n="6007115" e="2752730" status="green" update="1303853817">
+<data status="green" last="SOH DAT TEMA_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.05" unit="v"/>
+<temperature status="green" value="22" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="TGHO" name="Horomatangi Reef" n="6261331" e="2770242" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGHO_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="TGHR" name="Hingarae Road" n="6277074" e="2746014" status="red" update="1303853817">
+<data status="red" message="Data not received for more than 6 hours." last="SOH DAT TGHR_20110424_170000.dat 1303669362"/>
+</station>
+
+<station code="TGOH" name="Ouaha Hills" n="6257522" e="2774555" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGOH_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="TGRA" name="Rangitukua" n="6256366" e="2750436" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGRA_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="TGRI" name="Rihia Road" n="6243503" e="2757692" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGRI_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="TGTK" name="Te Kawerauta 1836" n="6284247" e="2754852" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGTK_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="TGWH" name="Whakaroa" n="6276963" e="2765781" status="green" update="1303853817">
+<data status="green" last="SOH DAT TGWH_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="THAP" name="Taihape" n="6165446" e="2748919" status="green" update="1303853817">
+<data status="green" last="SOH DAT THAP_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="11.98" unit="v"/>
+<temperature status="green" value="26" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="TINT" name="Tintock" n="6043818" e="2753533" status="green" update="1303853817">
+<data status="green" last="SOH DAT TINT_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.06" unit="v"/>
+<temperature status="green" value="21" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="TKAR" name="Te Karaka" n="6296075" e="2929950" status="green" update="1303853817">
+<data status="green" last="SOH DAT TKAR_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="TORY" name="Arapawa No. 2" n="6000897" e="2617363" status="green" update="1303853817">
+<data status="green" last="SOH DAT TORY_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="TRAV" name="Traveller" n="5975301" e="2734729" status="green" update="1303853817">
+<data status="green" last="SOH DAT TRAV_20110426_200000.dat 1303852241"/>
+</station>
+
+<station code="TRWH" name="Terawhiti" n="5990810" e="2646335" status="green" update="1303853817">
+<data status="green" last="SOH DAT TRWH_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="12.90" unit="v"/>
+<temperature status="green" value="13.5" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="UTKU" name="Utiku Reference Station" n="6158340" e="2752619" status="green" update="1303853817">
+<data status="green" last="SOH DAT UTKU_20110426_180000.tgd 1303847702"/>
+<voltage status="green" value="12.51" unit="v"/>
+<temperature status="green" value="18.5" unit="C"/>
+<satellite status="green" value="10" unit="sats"/>
+</station>
+
+<station code="VGFW" name="Far West" n="6213483" e="2730304" status="red" update="1303853817">
+<data status="red" message="Data not received for more than 6 hours." last="SOH DAT VGFW_20110425_140000.dat 1303807006"/>
+</station>
+
+<station code="VGKR" name="Karewarewa" n="6231075" e="2738497" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGKR_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGMO" name="Moawhango Dam" n="6196052" e="2747186" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGMO_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGOB" name="Chateau Observatory" n="6219628" e="2729595" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGOB_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGOT" name="Oturere" n="6223396" e="2740328" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGOT_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGPK" name="Pokaka" n="6210173" e="2712425" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGPK_20110426_200000.dat 1303853752"/>
+</station>
+
+<station code="VGTR" name="Turoa" n="6208676" e="2729804" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGTR_20110426_200000.dat 1303853752"/>
+</station>
+
+<station code="VGTS" name="Tukino Ski Field" n="6210871" e="2735100" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGTS_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGWH" name="Whangaehu Hut" n="6210351" e="2733362" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGWH_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="VGWN" name="Wahianoa" n="6205388" e="2733982" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGWN_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="WAHU" name="Waihua" n="6227670" e="2876286" status="green" update="1303853817">
+<data status="green" last="SOH DAT WAHU_20110426_200000.dat 1303852847"/>
+</station>
+
+<station code="WITH" name="Wither Hills" n="5960236" e="2592088" status="red" update="1303853817">
+<data status="red" message="Data not received for more than 6 hours." last="SOH DAT WITH_20110425_130000.dat 1303740884"/>
+</station>
+
+<station code="WMAT" name="Waiomatatini" n="6360996" e="2986078" status="green" update="1303853817">
+<data status="green" last="SOH DAT WMAT_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.69" unit="v"/>
+<temperature status="green" value="28" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="WPAW" name="Waipawa" n="6139457" e="2812903" status="green" update="1303853817">
+<data status="green" last="SOH DAT WPAW_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="12.30" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="WPUK" name="Waipukurau" n="6121126" e="2803428" status="green" update="1303853817">
+<data status="green" last="SOH DAT WPUK_20110426_200000.dat 1303852242"/>
+<voltage status="green" value="12.55" unit="v"/>
+<temperature status="green" value="26" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="AUKT" name="Auckland Tide Gauge CGPS" n="6482694" e="2668291" status="green" update="1303853817">
+<data status="green" last="SOH DAT AUKT_20110426_200000.dat 1303851939"/>
+</station>
+
+<station code="FALE" name="Faleolo" n="782320817" e="87004758" status="green" update="1303853817">
+<data status="green" last="SOH DAT FALE_20110426_200000.dat 1303851940"/>
+<voltage status="green" value="12.98" unit="v"/>
+<temperature status="green" value="47" unit="C"/>
+<satellite status="green" value="11" unit="sats"/>
+</station>
+
+<station code="NIUM" name="Niue Meteorological Station" n="110762229" e="-714022211" status="green" update="1303853817">
+<data status="green" last="SOH DAT NIUM_20110426_200000.dat 1303851940"/>
+<voltage status="green" value="13.35" unit="v"/>
+<temperature status="green" value="40" unit="C"/>
+<satellite status="green" value="11" unit="sats"/>
+</station>
+
+<station code="VAVS" name="Vavau" n="264149235" e="-946469457" status="green" update="1303853817">
+<data status="green" last="SOH DAT VAVS_20110426_200000.dat 1303851940"/>
+<voltage status="purple" message="No voltage information for more than 2 hours." value="13.48" unit="v"/>
+<temperature status="purple" message="No temperature information for more than 2 hours." value="42" unit="C"/>
+<satellite status="purple" message="No tracking information for more than 2 hours." value="11" unit="sats"/>
+</station>
+
+<station code="WGTT" name="Wellington Tide Gauge CGPS" n="5989183" e="2659202" status="green" update="1303853817">
+<data status="green" last="SOH DAT WGTT_20110426_200000.dat 1303851939"/>
+</station>
+
+<station code="AUCK" name="Whangaparaoa No 3" n="6509303" e="2674563" status="green" update="1303853817">
+<data status="green" last="SOH DAT AUCK_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="13.72" unit="v"/>
+<temperature status="green" value="28.2" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="BLUF" name="Bluff" n="5392196" e="2149058" status="green" update="1303853817">
+<data status="green" last="SOH DAT BLUF_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="12.46" unit="v"/>
+<temperature status="green" value="13.7" unit="C"/>
+<satellite status="green" value="18" unit="sats"/>
+</station>
+
+<station code="CHAT" name="Chatham Island IGS" n="239298627" e="429337947" status="green" update="1303853817">
+<data status="green" last="SOH DAT CHAT_20110426_200000.r 1303852242"/>
+</station>
+
+<station code="CHTI" name="Chatham Island North" n="-1560770356" e="1971153937" status="green" update="1303853817">
+<data status="green" last="SOH DAT CHTI_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="12.79" unit="v"/>
+<temperature status="green" value="17.5" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="CORM" name="Coromandel" n="6478042" e="2755518" status="green" update="1303853817">
+<data status="green" last="SOH DAT CORM_20110426_200000.tgd 1303852545"/>
+</station>
+
+<station code="DNVK" name="Dannevirke" n="6095959" e="2779142" status="green" update="1303853817">
+<data status="green" last="SOH DAT DNVK_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="12.37" unit="v"/>
+<temperature status="green" value="18.1" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="DUND" name="Trig T1 No.2" n="5477709" e="2323346" status="green" update="1303853817">
+<data status="green" last="SOH DAT DUND_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="26.96" unit="v"/>
+<temperature status="green" value="16.3" unit="C"/>
+<satellite status="green" value="18" unit="sats"/>
+</station>
+
+<station code="GISB" name="Gisborne" n="6273792" e="2935264" status="green" update="1303853817">
+<data status="green" last="SOH DAT GISB_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="12.73" unit="v"/>
+<temperature status="green" value="22.6" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="GLDB" name="Golden Bay" n="6042109" e="2470302" status="green" update="1303853817">
+<data status="green" last="SOH DAT GLDB_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="HAAS" name="Haast" n="5673022" e="2172551" status="green" update="1303853817">
+<data status="green" last="SOH DAT HAAS_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="14.05" unit="v"/>
+<temperature status="green" value="17.4" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="HAMT" name="Hamilton" n="6375182" e="2695923" status="green" update="1303853817">
+<data status="green" last="SOH DAT HAMT_20110426_200000.tgd 1303852545"/>
+<voltage status="green" value="12.83" unit="v"/>
+<temperature status="green" value="23.0" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="HAST" name="Roys Hill No2" n="6169749" e="2829884" status="green" update="1303853817">
+<data status="green" last="SOH DAT HAST_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="12.63" unit="v"/>
+<temperature status="green" value="18.9" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="HIKB" name="Hicks Bay" n="6390795" e="2978532" status="green" update="1303853817">
+<data status="green" last="SOH DAT HIKB_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="13.33" unit="v"/>
+<temperature status="green" value="26.6" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="HOKI" name="Hokitika" n="5830723" e="2344902" status="green" update="1303853817">
+<data status="green" last="SOH DAT HOKI_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="13.30" unit="v"/>
+<temperature status="green" value="16.6" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="KAIK" name="Kaikoura" n="5864511" e="2553919" status="green" update="1303853817">
+<data status="green" last="SOH DAT KAIK_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="12.28" unit="v"/>
+<temperature status="green" value="14.9" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="KTIA" name="Kaitaia Tatarakihi" n="6681370" e="2535762" status="green" update="1303853817">
+<data status="green" last="SOH DAT KTIA_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="13.10" unit="v"/>
+<temperature status="green" value="24.5" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="LEXA" name="Alexandra" n="5546502" e="2220122" status="green" update="1303853817">
+<data status="green" last="SOH DAT LEXA_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="14.61" unit="v"/>
+<temperature status="green" value="15.2" unit="C"/>
+<satellite status="green" value="17" unit="sats"/>
+</station>
+
+<station code="LKTA" name="Lake Taylor" n="5824620" e="2449977" status="green" update="1303853817">
+<data status="green" last="SOH DAT LKTA_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="12.38" unit="v"/>
+<temperature status="green" value="11.7" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="MAHO" name="Mahoenui" n="6297327" e="2671798" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAHO_20110426_200000.tgd 1303852847"/>
+</station>
+
+<station code="MAST" name="Tiffin No. 2" n="6012865" e="2727192" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAST_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="12.01" unit="v"/>
+<temperature status="green" value="15.7" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="MAVL" name="Mavora Lakes" n="5526608" e="2127702" status="green" update="1303853817">
+<data status="green" last="SOH DAT MAVL_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="13.93" unit="v"/>
+<temperature status="green" value="16.3" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="METH" name="Methven" n="5734144" e="2394969" status="green" update="1303853817">
+<data status="green" last="SOH DAT METH_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="12.80" unit="v"/>
+<temperature status="green" value="11.4" unit="C"/>
+<satellite status="green" value="17" unit="sats"/>
+</station>
+
+<station code="MQZG" name="McQueens Valley" n="5722689" e="2482178" status="green" update="1303853817">
+<data status="green" last="SOH DAT MQZG_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="12.18" unit="v"/>
+<temperature status="green" value="12.6" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="MTJO" name="Mt John Observatory" n="5688221" e="2306668" status="green" update="1303853817">
+<data status="green" last="SOH DAT MTJO_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="13.99" unit="v"/>
+<temperature status="green" value="16.1" unit="C"/>
+<satellite status="green" value="17" unit="sats"/>
+</station>
+
+<station code="NLSN" name="HM Hemi Matanga No. 2" n="6002489" e="2546376" status="green" update="1303853817">
+<data status="green" last="SOH DAT NLSN_20110426_200000.tgd 1303853753"/>
+<voltage status="green" value="12.31" unit="v"/>
+<temperature status="green" value="15.6" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="NPLY" name="German Hill No. 2" n="6224117" e="2606656" status="green" update="1303853817">
+<data status="green" last="SOH DAT NPLY_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="13.92" unit="v"/>
+<temperature status="green" value="17.7" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="PYGR" name="Puysegur Point" n="5430294" e="2022236" status="green" update="1303853817">
+<data status="green" last="SOH DAT PYGR_20110426_200000.dat 1303852545"/>
+</station>
+
+<station code="SCTB" name="Scott Base" n="-1914530" e="-58932321" status="green" update="1303853817">
+<data status="green" last="SOH DAT SCTB_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="19.21" unit="v"/>
+<temperature status="green" value="20.0" unit="C"/>
+<satellite status="green" value="13" unit="sats"/>
+</station>
+
+<station code="TAUP" name="Taupo Airport" n="6268861" e="2777859" status="green" update="1303853817">
+<data status="green" last="SOH DAT TAUP_20110426_200000.tgd 1303852241"/>
+</station>
+
+<station code="TRNG" name="Tauranga" n="6380755" e="2797596" status="green" update="1303853817">
+<data status="green" last="SOH DAT TRNG_20110426_200000.tgd 1303852241"/>
+</station>
+
+<station code="VGMT" name="Mangateitei" n="6199306" e="2722825" status="green" update="1303853817">
+<data status="green" last="SOH DAT VGMT_20110426_200000.tgd 1303853752"/>
+</station>
+
+<station code="WAIM" name="Trig S 76" n="5614813" e="2345039" status="green" update="1303853817">
+<data status="green" last="SOH DAT WAIM_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="12.69" unit="v"/>
+<temperature status="green" value="7.3" unit="C"/>
+<satellite status="green" value="17" unit="sats"/>
+</station>
+
+<station code="WANG" name="Wanganui" n="6156020" e="2666009" status="green" update="1303853817">
+<data status="green" last="SOH DAT WANG_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="12.47" unit="v"/>
+<temperature status="green" value="17.0" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="WARK" name="Warkworth" n="6528303" e="2659575" status="green" update="1303853817">
+<data status="green" last="SOH DAT WARK_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="13.48" unit="v"/>
+<temperature status="green" value="29.9" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="WEST" name="Westport" n="5939546" e="2410696" status="red" update="1303853817">
+<data status="red" message="Data not received for more than 6 hours." last="SOH DAT WEST_20110419_220000.tgd 1303255464"/>
+</station>
+
+<station code="WGTN" name="Wellington Airport" n="5985475" e="2661161" status="green" update="1303853817">
+<data status="green" last="SOH DAT WGTN_20110426_200000.tgd 1303851940"/>
+<voltage status="green" value="14.09" unit="v"/>
+<temperature status="green" value="18.1" unit="C"/>
+<satellite status="green" value="16" unit="sats"/>
+</station>
+
+<station code="WHKT" name="Whakatane" n="6350026" e="2862663" status="green" update="1303853817">
+<data status="green" last="SOH DAT WHKT_20110426_200000.tgd 1303852241"/>
+</station>
+
+<station code="WHNG" name="Whangarei" n="6598828" e="2629465" status="green" update="1303853817">
+<data status="green" last="SOH DAT WHNG_20110426_200000.tgd 1303852242"/>
+<voltage status="green" value="12.55" unit="v"/>
+<temperature status="green" value="26.2" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+<station code="BNET" name="Coxs Downs" n="5701195" e="2284172" status="green" update="1303853817">
+<data status="green" last="SOH DAT BNET_20110426_190000.dat 1303851940"/>
+</station>
+
+<station code="CNCL" name="Conical Hill" n="5722021" e="2256490" status="green" update="1303853817">
+<data status="green" last="SOH DAT CNCL_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="14.05" unit="v"/>
+<temperature status="green" value="25" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="HORN" name="Mount Hodgkinson" n="5710417" e="2277043" status="green" update="1303853817">
+<data status="green" last="SOH DAT HORN_20110426_160030.dat 1303844987"/>
+</station>
+
+<station code="KARA" name="Karangarua" n="5728194" e="2249737" status="green" update="1303853817">
+<data status="green" last="SOH DAT KARA_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="14.36" unit="v"/>
+<temperature status="green" value="26" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="NETT" name="Annette Plateau" n="5712646" e="2273396" status="green" update="1303853817">
+<data status="green" last="SOH DAT NETT_20110426_200000.dat 1303852545"/>
+<voltage status="green" value="14.83" unit="v"/>
+<temperature status="green" value="15" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="PILK" name="Pilkington Glacier" n="5722847" e="2261761" status="green" update="1303853817">
+<data status="green" last="SOH DAT PILK_20110426_190000.dat 1303848306"/>
+</station>
+
+<station code="QUAR" name="Quarry" n="5736836" e="2252690" status="green" update="1303853817">
+<data status="green" last="SOH DAT QUAR_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.16" unit="v"/>
+<temperature status="green" value="20" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="VEXA" name="Vexation" n="5725302" e="2259382" status="green" update="1303853817">
+<data status="green" last="SOH DAT VEXA_20110426_190000.dat 1303851336"/>
+</station>
+
+<station code="WAKA" name="Waka Mara" n="5731237" e="2258521" status="green" update="1303853817">
+<data status="green" last="SOH DAT WAKA_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.90" unit="v"/>
+<temperature status="green" value="21" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="CLSG" name="Glendevere Terrace Redcliffs" n="5738560" e="2488399" status="green" update="1303853817">
+<data status="green" last="SOH DAT CLSG_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="11.51" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="9" unit="sats"/>
+</station>
+
+<station code="CLSK" name="Kinsey Terrace Sumner" n="5737932" e="2490033" status="green" update="1303853817">
+<data status="green" last="SOH DAT CLSK_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="11.70" unit="v"/>
+<temperature status="green" value="24" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="UTK1" name="Utiku Borehole 1" n="6157799" e="2753156" status="green" update="1303853817">
+<data status="green" last="SOH DAT UTK1_20110426_190000.dat 1303851336"/>
+<voltage status="green" value="12.01" unit="v"/>
+<temperature status="green" value="26" unit="C"/>
+<satellite status="green" value="8" unit="sats"/>
+</station>
+
+<station code="UTK2" name="Utiku Borehole 2" n="6158216" e="2753165" status="green" update="1303853817">
+<data status="green" last="SOH DAT UTK2_20110426_200000.dat 1303852848"/>
+<voltage status="green" value="12.06" unit="v"/>
+<temperature status="green" value="27" unit="C"/>
+<satellite status="green" value="6" unit="sats"/>
+</station>
+
+<station code="UTK3" name="Utiku Borehole 3" n="6158000" e="2753014" status="green" update="1303853817">
+<data status="green" last="SOH DAT UTK3_20110426_200000.dat 1303853752"/>
+</station>
+
+<station code="UTK4" name="Utiku Borehole 4" n="6157901" e="2753118" status="green" update="1303853817">
+<data status="green" last="SOH DAT UTK4_20110426_200000.dat 1303853752"/>
+</station>
+
+<station code="VR27" name="27 Vernon Terrace" n="5737904" e="2482781" status="green" update="1303853817">
+<data status="green" last="SOH DAT VR27_20110426_180000.dat 1303845894"/>
+<voltage status="purple" message="No voltage information for more than 2 hours." value="10.85" unit="v"/>
+<temperature status="purple" message="No temperature information for more than 2 hours." value="18" unit="C"/>
+<satellite status="purple" message="No tracking information for more than 2 hours." value="7" unit="sats"/>
+</station>
+
+<station code="VR47" name="47 Vernon Terrace" n="5737747" e="2482774" status="green" update="1303853817">
+<data status="green" last="SOH DAT VR47_20110426_200000.tgd 1303852848"/>
+<voltage status="green" value="12.46" unit="v"/>
+<temperature status="green" value="11.8" unit="C"/>
+<satellite status="green" value="15" unit="sats"/>
+</station>
+
+</gps_soh>

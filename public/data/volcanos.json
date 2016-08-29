@@ -1,0 +1,263 @@
+{
+  "crs" : {
+    "properties" : {
+      "code" : "4326"
+    },
+    "type" : "EPSG"
+  },
+  "features" : [
+    {
+      "properties" : {
+        "id" : "taranakiegmont",
+        "aviationcode-updatetime" : "2012-04-19 01:46:30",
+        "title" : "Taranaki/Egmont",
+        "alertlevel" : "5",
+        "alertlevel-updatetime" : "2012-04-19 01:46:30",
+        "aviationcode" : "3",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "YELLOW"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          174.061,
+          -39.298
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "taupo",
+        "aviationcode-updatetime" : "2012-04-19 01:45:00",
+        "title" : "Taupo",
+        "alertlevel" : "5",
+        "alertlevel-updatetime" : "2012-04-19 01:45:00",
+        "aviationcode" : "5",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "ORANGE"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          175.896,
+          -38.784
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "kermadecislands",
+        "aviationcode-updatetime" : "2012-04-18 23:11:38",
+        "title" : "Kermadec Islands",
+        "alertlevel" : "3",
+        "alertlevel-updatetime" : "2012-04-18 22:39:15",
+        "aviationcode" : "3",
+        "type" : "Active",
+        "aviationcolorcode" : "YELLOW"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          177.914,
+          -29.254
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "ngauruhoe",
+        "aviationcode-updatetime" : "2012-04-18 23:16:56",
+        "title" : "Ngauruhoe",
+        "alertlevel" : "2",
+        "alertlevel-updatetime" : "2012-04-18 23:16:56",
+        "aviationcode" : "3",
+        "type" : "Active",
+        "aviationcolorcode" : "YELLOW"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          175.632,
+          -39.156
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "whiteisland",
+        "aviationcode-updatetime" : "2012-04-18 03:48:02",
+        "title" : "White Island",
+        "alertlevel" : "1",
+        "alertlevel-updatetime" : "2012-04-18 03:48:02",
+        "aviationcode" : "1",
+        "type" : "Active",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          -177.183,
+          -37.521
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "ruapehu",
+        "aviationcode-updatetime" : "2012-04-18 03:48:02",
+        "title" : "Ruapehu",
+        "alertlevel" : "1",
+        "alertlevel-updatetime" : "2012-04-18 03:48:02",
+        "aviationcode" : "1",
+        "type" : "Active",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          175.563,
+          -39.281
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "tongariro",
+        "aviationcode-updatetime" : "2012-04-18 03:48:02",
+        "title" : "Tongariro",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:02",
+        "aviationcode" : "1",
+        "type" : "Active",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          175.641727,
+          -39.133318
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "mayorisland",
+        "aviationcode-updatetime" : "2012-04-18 03:48:01",
+        "title" : "Mayor Island",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:01",
+        "aviationcode" : "1",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          176.251,
+          -37.286
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "aucklandvolcanicfield",
+        "aviationcode-updatetime" : "2012-04-18 03:48:01",
+        "title" : "Auckland Volcanic Field",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:01",
+        "aviationcode" : "1",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          174.77,
+          -36.985
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "northland",
+        "aviationcode-updatetime" : "2012-04-18 03:48:01",
+        "title" : "Northland",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:01",
+        "aviationcode" : "1",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          173.63,
+          -35.395
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "okataina",
+        "aviationcode-updatetime" : "2012-04-18 03:48:01",
+        "title" : "Okataina",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:01",
+        "aviationcode" : "1",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          176.501,
+          -38.119
+        ]
+      }
+    },
+    {
+      "properties" : {
+        "id" : "rotorua",
+        "aviationcode-updatetime" : "2012-04-18 03:48:02",
+        "title" : "Rotorua",
+        "alertlevel" : "0",
+        "alertlevel-updatetime" : "2012-04-18 03:48:02",
+        "aviationcode" : "1",
+        "type" : "Reawakening",
+        "aviationcolorcode" : "GREEN"
+      },
+      "type" : "Feature",
+      "geometry_name" : "point",
+      "geometry" : {
+        "type" : "Point",
+        "coordinates" : [
+          176.281,
+          -38.093
+        ]
+      }
+    }
+  ],
+  "type" : "FeatureCollection"
+}
