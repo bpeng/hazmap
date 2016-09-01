@@ -1,0 +1,46 @@
+###LINZ https://data.linz.govt.nz/my/api/
+API Query 	df00b26dbc294fc6b64da98e91a01078
+
+######
+The map
+http://rawgit.com/bpeng/hazmap/feature-baselayers/public/quakes-map-linz.html
+
+###### 1 NZ Aerial Imagery
+http://data.linz.govt.nz/services;key=df00b26dbc294fc6b64da98e91a01078/wmts/1.0.0/set/2/WMTSCapabilities.xml
+
+<Layer>
+<ows:Title>NZ Aerial Imagery</ows:Title>
+<ows:Abstract>...</ows:Abstract>
+<ows:Identifier>set-2</ows:Identifier>
+<ows:BoundingBox crs="urn:ogc:def:crs:EPSG::3857">...</ows:BoundingBox>
+<ows:BoundingBox crs="urn:ogc:def:crs:EPSG::2193">...</ows:BoundingBox>
+<ows:WGS84BoundingBox crs="urn:ogc:def:crs:OGC:2:84">...</ows:WGS84BoundingBox>
+<Style isDefault="true">...</Style>
+<Format>image/png</Format>
+<InfoFormat>application/json</InfoFormat>
+<InfoFormat>text/html</InfoFormat>
+<TileMatrixSetLink>
+<TileMatrixSet>EPSG:3857</TileMatrixSet>
+</TileMatrixSetLink>
+<TileMatrixSetLink>
+<TileMatrixSet>EPSG:2193</TileMatrixSet>
+</TileMatrixSetLink>
+<ResourceURL format="image/png" resourceType="tile" template="http://tiles-a.data-cdn.linz.govt.nz/services;key=df00b26dbc294fc6b64da98e91a01078/tiles/v4/set=2,{style}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+</Layer>
+
+        {background-color:#0099CC;}
+
+http://tiles-a.data-cdn.linz.govt.nz/services;key=YOUR_API_TOKEN/tiles/v4/set=2/EPSG:3857/{z}/{x}/{y}.png
+
+###### 2 NZ Topo50 Maps
+<ResourceURL format="image/png" resourceType="tile" template="https://tiles-a.data-cdn.linz.govt.nz/services;key=df00b26dbc294fc6b64da98e91a01078/tiles/v4/layer=767,{style}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png"/>
+
+http://rawgit.com/bpeng/hazmap/feature-baselayers/public/quakes-map-linz.html
+
+###### 3. combined layers
+https://tiles-b.data-cdn.linz.govt.nz/services;key=84b98c72279d43a28305e19793539190/tiles/v4/layer=1933,style=auto;layer=1928,style=auto;layer=2602,style=auto/9/500/323.png
+
+https://tiles-a.data-cdn.linz.govt.nz/services/tiles/v4/thumbnail/layer=1013.1008,style=auto/150x100.png
+
+https://tiles-a.data-cdn.linz.govt.nz/services;key=84b98c72279d43a28305e19793539190/tiles/v4/layer=1778,style=auto;layer=1722,style=auto;layer=1751,style=auto;layer=1757,style=auto;layer=1760,style=auto;layer=3401,style=auto;layer=3400,style=auto/7/127/78.png
+

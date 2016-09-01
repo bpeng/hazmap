@@ -1,30 +1,7 @@
-/*
- * Displays recent earthquakes, data is taken from the json service.
- * @author - Hien Tran 2012, Baishan 8/2013
- */
-Date.parseUTC = function (date) {
-    var origParse = Date.parse, numericKeys = [ 1, 4, 5, 6, 7, 10, 11 ];
-    var timestamp, struct, minutesOffset = 0;
-    if ((struct = /^(\d{4})-(\d{1,2})-(\d{1,2}) (\d{1,2}):(\d{1,2}):(\d{1,2}).(\d{1,10})$/.exec(date))) {
-        // avoid NaN timestamps caused by "undefined" values being passed to Date.UTC
-        for (var i = 0, k; (k = numericKeys[i]); ++i) {
-            struct[k] = +struct[k] || 0;
-        }
-        // allow undefined days and months
-        struct[2] = (+struct[2] || 1) - 1;
-        struct[3] = +struct[3] || 1;
-
-        timestamp = Date.UTC(struct[1], struct[2], struct[3], struct[4], struct[5], struct[6]);
-    }else {
-        timestamp = origParse ? origParse(date) : NaN;
-    }
-    return new Date(timestamp);
-};
 /**
  * define basic variables and functions for the application
  */
 var quakesMapApp = {
-    URL_PREFIX : "/quakes/region/newzealand/",
     GEOJSON_URL : "data/5/100.json",
     ieVersion:-1,
     currentTime:null,
@@ -49,9 +26,6 @@ var quakesMapApp = {
         'strong':13,
         'severe':15
     },
-    intensityList : ["0","3","4","5","6","7"],
-    intensityNameList : ['unnoticeable','weak', 'light','moderate', 'strong','severe'],
-    maxQuakesList : ["100","500","1000","1500"],
     minIntensity : 3,
     maxQuakes:100,
     map: null,
@@ -59,33 +33,6 @@ var quakesMapApp = {
     allQuakesLayers:[],
     layerControl:null,
     regionMap:false,
-
-    clearOverLays:function(){
-        if(this.allQuakesLayers.length > 0){
-            for(var index in this.allQuakesLayers){
-                this.map.removeLayer(this.allQuakesLayers[index]);
-                this.layerControl.removeLayer(this.allQuakesLayers[index]);
-                this.allQuakesLayers[index].clearLayers();
-            }
-            this.allQuakesLayers = [];
-        }
-    },
-
-    checkMapData:function(minIntensitySel, maxQuakesSel){
-        var update = false;
-        if(minIntensitySel != this.minIntensity){
-            this.minIntensity = minIntensitySel;
-            update = true;
-        }
-        if(maxQuakesSel != this.maxQuakes){
-            this.maxQuakes = maxQuakesSel;
-            update = true;
-        }
-        if(update){
-            this.loadQuakesData();
-        }
-    },
-
 
     loadQuakesData:function(url){
         if(!url){
@@ -103,7 +50,7 @@ var quakesMapApp = {
         return L.geoJson(data, {
             onEachFeature: function (feature, layer) {
                 if (feature.properties) {
-                    var popup = "<strong>Public ID: </strong><a href='" + quakesMapApp.URL_PREFIX + feature.properties.publicid + "'>" + feature.properties.publicid + "</a><br/>" +
+                    var popup = "<strong>Public ID: </strong>" + feature.properties.publicid + "<br/>" +
                     "<strong>Time: </strong>" + feature.properties.nzorigintime + "<br/>" +
                     "<strong>Intensity: </strong><span class='badge " + feature.properties.intensity + "'>" + feature.properties.intensity + "</span><br/>" +
                     "<strong>Magnitude: </strong>" + feature.properties.magnitude.toFixed(1) + "<br/>" +
@@ -159,43 +106,6 @@ var quakesMapApp = {
     }
 };
 
-function initMap() {
-    var IE_QUAKE_ICON_URL = 'http://static.geonet.org.nz/geonet-2.0.2/images/volcano/quake-icon-ie.png';    
-
-    quakesMapApp.ieVersion = quakesMapApp.getIEVersion();
-
-    quakesMapApp.map = new L.Map('haz-map', {
-        attributionControl: false,
-        worldCopyJump: false
-    }).setView([-41, 174], 5);
-
-    var osmGeonetUrl = 'http://{s}.geonet.org.nz/osm/tiles/{z}/{x}/{y}.png',//
-    osmMqUrl = 'http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',//
-    cloudmadeAttribution = '',
-    osmLayerGeonet = new L.TileLayer(osmGeonetUrl, {
-        minZoom : 1,
-        maxZoom : 15,
-        attribution: cloudmadeAttribution,
-        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
-        subdomains:[ 'static1', 'static2', 'static3', 'static4', 'static5']
-    }),
-    
-    googleSatellite = new L.Google('SATELLITE');  //ROADMAP, TERRAIN
-    
-    //map switcher
-    var baseLayers = {
-        "Map" : osmLayerGeonet,
-        "Satellite" : googleSatellite
-    };
-    quakesMapApp.map.addLayer(osmLayerGeonet);
-    //add layer switch
-    quakesMapApp.layerControl = L.control.layers(baseLayers);
-
-    quakesMapApp.layerControl.addTo(quakesMapApp.map)   
-    
-    //load and add quakes layer
-    quakesMapApp.loadQuakesData();
-};
 
 jQuery(document).ready(function () {
 	//initMap();

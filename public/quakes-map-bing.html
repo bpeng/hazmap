@@ -14,7 +14,7 @@
     <script src="js/leaflet-v1.0.0-rc.js"></script>
     <script src="//cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script>
 
-    <script src="js/leaflet-bing-layer.js"></script>    
+    <script src="js/leaflet-bing-layer.js"></script>
     
     <script src="js/quakes-map.js"></script>
 
@@ -53,7 +53,7 @@
         "Satellite" : bingLayer
     };
 
-    map.addLayer(osmLayerGeonet);
+    map.addLayer(bingLayer);
 
     var layerControl = L.control.layers(baseLayers).addTo(map);
 
