@@ -1,87 +1,91 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>GeoNet Map -- OSM AND LINZ Aerial Imagery</title>
-    <meta charset="utf-8"/>
-    <link type="text/css" rel="stylesheet" href="//static.geonet.org.nz/geonet-2.0.3/css/bootstrap-geonet.css"/>
-    <link rel="stylesheet"
-          href="//static.geonet.org.nz/leaflet/0.7.7/leaflet.css"/>
-    <style>
-        .leaflet-container {
-        background: #396670;
-        }
-    </style>
+    <head>
+        <title>GeoNet Map -- OSM AND LINZ Aerial Imagery</title>
+        <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" href="//static.geonet.org.nz/geonet-2.0.3/css/bootstrap-geonet.css"/>
+        <link rel="stylesheet"
+              href="//static.geonet.org.nz/leaflet/0.7.7/leaflet.css"/>
+        <style>
+            .leaflet-container {
+                background: #396670;
+            }
+        </style>
 
 
-    <script src="//static.geonet.org.nz/jquery/js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    
-    <script src="//static.geonet.org.nz/leaflet/0.7.7/leaflet.js"></script>
+        <script src="//static.geonet.org.nz/jquery/js/jquery-1.9.1.min.js" type="text/javascript"></script>
 
-    
-    <script src="js/Google.js"></script>
-    
-    <script src="js/quakes-map.js"></script>
-
-</head>
-<body>
-<div class="container container-background">
-    <div class="page-header">
-        <h1>GeoNet Map -- OSM map with LINZ Aerial Imagery </h1>
-    </div>
-
-    <div id="map" style="width: 512px; height: 600px" > </div>
-
-    <script>
-    var map = L.map('map', {
-                attributionControl: false,
-                worldCopyJump: false
-            });
-
-    var osmGeonetUrl = '//{s}.geonet.org.nz/osm/tiles/{z}/{x}/{y}.png',//
-    cloudmadeAttribution = '',
-    osmLayerGeonet = new L.TileLayer(osmGeonetUrl, {
-        minZoom : 1,
-        maxZoom : 18,
-        attribution: cloudmadeAttribution,
-        errorTileUrl: '//static.geonet.org.nz/osm/images/logo_geonet.png',
-        subdomains:[ 'static1', 'static2', 'static3', 'static4', 'static5']
-    });
-
-    var LINZ_API_KEY = 'df00b26dbc294fc6b64da98e91a01078';
-    //layer=767, set=2,style=default
-    var layers ='layer=1933,style=auto;layer=1928,style=auto;layer=2602,style=auto';
-    //http://tiles-a.data-cdn.linz.govt.nz/services;key=df00b26dbc294fc6b64da98e91a01078/tiles/v4/set=2,{style}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png
-    var linzTiles = 'http://tiles-{s}.data-cdn.linz.govt.nz/services;key=' + LINZ_API_KEY + '/tiles/v4/set=2,style=default/EPSG:3857/{z}/{x}/{y}.png';
-    var linzSatellite = L.tileLayer(linzTiles,
-                                       {
-                                     minZoom : 1,
-                                     maxZoom : 18,
-                                     attribution: cloudmadeAttribution,
-                                     errorTileUrl: '//static.geonet.org.nz/osm/images/logo_geonet.png',
-                                     subdomains:'abcd'
-                              });
-
-    //map switcher
-    var baseLayers = {
-        "OSM Map" : osmLayerGeonet,
-        "LINZ Satellite" : linzSatellite
-    };
-
-    map.addLayer(linzSatellite);
-
-    var layerControl = L.control.layers(baseLayers).addTo(map);
-
-    map.setView(new L.LatLng(-41.1, 174.0), 5);		
-
-    </script>
-
-    <h5>Notes</h5>
-    <p>
-        Investigate <a href="https://data.linz.govt.nz/set/2-nz-aerial-imagery/" ><b>LINZ Aerial Imagery</b></a> tiles as base layer in <b>Leaflet</b> map
-    </p>
+        <script src="//static.geonet.org.nz/leaflet/0.7.7/leaflet.js"></script>
 
 
-</div>
+        <script src="js/Google.js"></script>
 
-</body>
+        <script src="js/quakes-map.js"></script>
+
+    </head>
+    <body>
+        <div class="container container-background">
+            <div class="page-header">
+                <h1>GeoNet Map -- OSM map with LINZ Aerial Imagery </h1>
+            </div>
+
+            <div id="map" style="width: 512px; height: 600px" > </div>
+
+            <script>
+                var map = L.map('map', {
+                    attributionControl: false,
+                    worldCopyJump: false
+                });
+
+                var osmGeonetUrl = '//{s}.geonet.org.nz/osm/tiles/{z}/{x}/{y}.png', //
+                        cloudmadeAttribution = '',
+                        osmLayerGeonet = new L.TileLayer(osmGeonetUrl, {
+                            minZoom: 1,
+                            maxZoom: 18,
+                            attribution: cloudmadeAttribution,
+                            errorTileUrl: '//static.geonet.org.nz/osm/images/logo_geonet.png',
+                            subdomains: ['static1', 'static2', 'static3', 'static4', 'static5']
+                        });
+
+                var LINZ_API_KEY = 'df00b26dbc294fc6b64da98e91a01078';
+                //layer=767, set=2,style=default
+                var layers = 'layer=1933,style=auto;layer=1928,style=auto;layer=2602,style=auto';
+                //http://tiles-a.data-cdn.linz.govt.nz/services;key=df00b26dbc294fc6b64da98e91a01078/tiles/v4/set=2,{style}/{TileMatrixSet}/{TileMatrix}/{TileCol}/{TileRow}.png
+                var linzTiles = 'http://tiles-{s}.data-cdn.linz.govt.nz/services;key=' + LINZ_API_KEY + '/tiles/v4/set=2,style=default/EPSG:3857/{z}/{x}/{y}.png';
+                var linzSatellite = L.tileLayer(linzTiles,
+                        {
+                            minZoom: 1,
+                            maxZoom: 18,
+                            attribution: cloudmadeAttribution,
+                            errorTileUrl: '//static.geonet.org.nz/osm/images/logo_geonet.png',
+                            subdomains: 'abcd'
+                        });
+
+                //map switcher
+                var baseLayers = {
+                    "OSM Map": osmLayerGeonet,
+                    "LINZ Satellite": linzSatellite
+                };
+
+                map.addLayer(linzSatellite);
+
+                quakesMapApp.layerControl = L.control.layers(baseLayers).addTo(map);
+
+                map.setView(new L.LatLng(-41.1, 174.0), 5);
+
+                quakesMapApp.lftMap = map;
+
+                quakesMapApp.loadQuakesData();
+
+            </script>
+
+            <h5>Notes</h5>
+            <p>
+                Investigate <a href="https://data.linz.govt.nz/set/2-nz-aerial-imagery/" ><b>LINZ Aerial Imagery</b></a> tiles as base layer in <b>Leaflet</b> map
+            </p>
+
+
+        </div>
+
+    </body>
 </html>
