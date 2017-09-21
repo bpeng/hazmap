@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Open Street Map -- GeoNet</title>
+        <meta charset="utf-8" />
+        <link type="text/css" rel="stylesheet" href="http://static.geonet.org.nz/geonet-2.0.3/css/bootstrap-geonet.css"/>
+        <link rel="stylesheet"
+              href="http://static.geonet.org.nz/leaflet/0.5.1/leaflet.css" />
+     
+        <script src="http://static.geonet.org.nz/leaflet/0.5.1/leaflet.js"></script>
+        <!--[if lte IE 8]>
+		 <link rel="stylesheet" href="css/leaflet.ie.css" />	
+		 <script src="js/json2.js"></script>
+	    <![endif]-->
+    </head>
+    <body>
+    
+    <div class="container container-background">
+            <div class="page-header">
+                <h1>GeoNet Open Street Map</h1>
+            </div>
+            <p>Open Street Map rendered by mapnik with OSM data updated in May 2016.
+            </p>
+            
+        <div id="map" style="width: 512px; height: 600px"></div>
+
+        <script>
+            var map = L.map('map', {
+                attributionControl: false,
+                worldCopyJump: false
+            });
+         
+
+            var lonSign = 1;
+            //http://static-wn.geonet.org.nz/nasagm/06/000/000/125/000/000/017.jpeg
+
+    var osmGeonetUrl = 'http://{s}.geonet.org.nz/osm/tiles/{z}/{x}/{y}.png',//
+    //var osmGeonetUrl = 'http://{s}.gns.cri.nz/osm/tiles/{z}/{x}/{y}.png',//
+    osmLocalUrl = '../{s}/tiles/{z}/{x}/{y}.png',//
+    osmMqUrl = 'http://{s}.mqcdn.com/tiles/1.0.0/map/{z}/{x}/{y}.jpg',//
+    cloudmadeAttribution = '',
+    osmLayerGeonet = new L.TileLayer(osmGeonetUrl, {
+        minZoom : 1,
+        maxZoom : 15,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:[ 'static1', 'static2', 'static3', 'static4', 'static5']
+    }),
+    
+    osmLayerLocal = new L.TileLayer(osmLocalUrl, {
+        minZoom : 1,
+        maxZoom : 15,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:[ 'static']
+    }),
+    
+    
+    osmLayerMq = new L.TileLayer(osmMqUrl, {
+        minZoom : 16,
+        maxZoom : 17,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:['otile1','otile2','otile3','otile4']
+    });
+    
+    var mqAerialUrl =  "http://{s}.mqcdn.com/tiles/1.0.0/sat/{z}/{x}/{y}.jpg",
+    mqAerialLayer = new L.TileLayer(mqAerialUrl,
+    {
+        maxZoom: 11,
+        minZoom: 1,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:['otile1','otile2','otile3','otile4']
+    }
+    );
+
+    var topoUrl = 'http://{s}.geonet.org.nz/nztopo/{z}/{x}/{y}.png',
+    topoLayer = new L.TileLayer(topoUrl,
+    {
+        maxZoom: 14,
+        minZoom: 12,
+        attribution: cloudmadeAttribution,
+        errorTileUrl: 'http://static.geonet.org.nz/osm/images/logo_geonet.png',
+        subdomains:[ 'static1', 'static2', 'static3', 'static4', 'static5']
+    }
+    );
+
+    var osmMap = L.layerGroup([osmLayerLocal]); //osmLayerMq
+    var aerialTopo = L.layerGroup([mqAerialLayer, topoLayer]);
+    osmMap.maxxxxZommm = 17;
+    aerialTopo.maxxxxZommm = 14;
+    //map switcher
+    var baseLayers = {
+        "Map" : osmMap,
+        "Aerial / Topo" : aerialTopo
+    };
+
+    map.addLayer(osmMap);
+
+    L.control.layers(baseLayers).addTo(map);
+    
+    osmMap.className = "Map";
+    aerialTopo.className = "AerialTopo";
+    topoLayer.className = "topo";
+    osmLayerMq.className = "osmMq";
+    mqAerialLayer.className = "Aerial";
+    osmLayerGeonet.className = "osmGeoNet";
+    
+   
+    
+    //set map zoom on base layer change, !!!!!! use baselayerchange in next version of leaflet!!!!!!
+    map.on('layeradd', function(e){
+    	var id = L.Util.stamp(e.layer);
+    	console.log("layeradd e.layer.className " + e.layer.className );
+        if(e.layer.maxxxxZommm ){
+            this.options.maxZoom = e.layer.maxxxxZommm;
+            if(this.getZoom() > e.layer.maxxxxZommm){
+                this.setZoom(e.layer.maxxxxZommm);
+            }
+        }
+    });
+
+            //-38.2057205720572, 175.788778877888
+            map.setView(new L.LatLng(-41.1, 174.0), 5);
+
+
+
+            map.on('click', onMapClick);
+
+
+            var popup = new L.Popup();
+
+            function onMapClick(e) {
+                var latlngStr = '(' + e.latlng.lat.toFixed(3) + ', '
+                    + e.latlng.lng.toFixed(3) + ')';
+                popup.setLatLng(e.latlng);
+                popup.setContent("You clicked the map at " + latlngStr);
+                map.openPopup(popup);
+            }
+            //console.log("1 document.onload "  );
+            
+         
+       map.on('moveend', function(e){
+            console.log("#### move ####");
+            var bounds = this.getPixelBounds(),
+			tileSize = mqAerialLayer.options.tileSize;
+            
+            console.log("#### bounds ####" + JSON.stringify(bounds));
+		
+		    var nwTilePoint = new L.Point(
+				Math.floor(bounds.min.x / tileSize),
+				Math.floor(bounds.min.y / tileSize)),
+			seTilePoint = new L.Point(
+				Math.floor(bounds.max.x / tileSize),
+				Math.floor(bounds.max.y / tileSize)),
+				
+			tileBounds = new L.Bounds(nwTilePoint, seTilePoint);
+		    
+		    console.log("#### tileBounds ####" + JSON.stringify(tileBounds));
+		    
+		    //
+		    var queue = [],
+			center = tileBounds.getCenter();
+		
+			for (var j = tileBounds.min.y; j <= tileBounds.max.y; j++) {
+				for (var i = tileBounds.min.x; i <= tileBounds.max.x; i++) {				
+					//if ((i + ':' + j) in this._tiles) { continue; }
+					queue.push(new L.Point(i, j));
+				}
+			}
+			
+			// load tiles in order of their distance to center
+			queue.sort(function(a, b) {
+				return a.distanceTo(center) - b.distanceTo(center);
+			});
+			
+			var tilesToLoad = queue.length;
+			var zoom = this.getZoom();
+			for (var k = 0, len = tilesToLoad; k < len; k++) {
+				//this._addTile(queue[k]);
+				//getTileUrl: function(tilePoint, zoom) {
+				var tilePoint = queue[k];
+			    //var tileUrl = mqAerialLayer.getTileUrl(queue[k], zoom);
+			    var subdomains = mqAerialLayer.options.subdomains,
+			    s = mqAerialLayer.options.subdomains[(tilePoint.x + tilePoint.y) % subdomains.length];
+			    
+			    var url = mqAerialLayer._url
+				.replace('{s}', s)
+				.replace('{z}', zoom)
+				.replace('{x}', tilePoint.x)
+				.replace('{y}', tilePoint.y);
+			    
+			    console.log("#### tile ####" + url);
+			}
+		    
+		    
+       });
+		
+		
+        </script>
+
+        <h5>Notes</h5>
+        <ul>
+        <li>
+        OSM data downloaded from http://download.geofabrik.de/, updated 2016-05-21
+        </li>
+        <li>
+        Unable to find osm data for Chatham Islands, use past data.
+        </li>
+        
+         <li>
+        Has key violation issue with loading osm data to PostGIS for Chatham, resulting in the purple outline of Chatham Island missing, use past tiles for zoom levels 0-8. 
+        </li>
+        
+        </ul>
+
+
+    </div>
+
+    </body>
+</html>

@@ -1,0 +1,424 @@
+Map service investigation
+18/5/2016
+
+1. the issue:
+   https://github.com/GeoNet/geonet-web/issues/154
+
+2. Goal
+   investigate a suitable map service for the GeoNet web map, or update the OSM tiles ourselves
+   
+3. Web services
+3.1 MapQuest
+-- currently used for the Aerial/Topo map layer tiles
+-- was providing free open service with very large limit
+-- zoom levels: 0-11   
+-- Free Open plan changed in 8/2015
+   http://devblog.mapquest.com/2015/08/17/mapquest-free-open-license-updates-and-changes/
+   https://developer.mapquest.com/forum/downloading-map-tile-offline-use#comment-3330
+   
+-- New price/plan
+   https://developer.mapquest.com/plans
+   
+   free:           15,000 transactions/month
+   basic $99       30,000
+   business $399   200,000
+   
+ 3.2 Google
+   https://developers.google.com/maps/documentation/javascript/usage#standard-usage-limits
+   
+   free           25,000 loads/day for 90 consecutive days
+                  $0.5 / 1000 additional loads up to 1,000,000 loads /day
+                  
+                  
+3.3 MapBox
+-- imagery zoom levels: 0-8 
+   
+-- price/plan
+   https://www.mapbox.com/pricing/  
+   
+   free             50,000 views /month
+   standard $49     100,000   
+   premium  $499    1,000,000    
+   
+4. Conclusion:
+
+4.1 Regenerate and host OSM tiles ourselves
+4.2 Imageries: switch to google or drop. 
+
+###############################################
+###### Re-rendering OSW tiles 2016-05-20 ######
+###############################################
+
+1. OSW Data source:
+   https://github.com/gravitystorm/openstreetmap-carto/blob/master/INSTALL.md
+   http://planet.openstreetmap.org/
+   http://wiki.openstreetmap.org/wiki/Planet.osm#Downloading
+   http://wiki.openstreetmap.org/wiki/Downloading_data
+   http://wiki.openstreetmap.org/wiki/Planet.osm#Country_and_area_extracts 
+     
+1.2 Dowload from http://download.geofabrik.de/ 
+   ## updated 2016-05-21 THIS IS THE ONLY WORKING SERVER!!!
+   wget http://download.geofabrik.de/australia-oceania-latest.osm.pbf
+   wget http://download.geofabrik.de/australia-oceania/new-zealand-latest.osm.pbf  
+   
+   but unable to download chatham islands, use past data
+   
+1.3 world boundaries
+    https://github.com/gravitystorm/openstreetmap-carto/blob/master/INSTALL.md
+    http://wiki.openstreetmap.org/wiki/Mapnik/Installation_on_Fedora_18
+    
+1.4 previous data source
+  wget -O new_zealand.osm    http://www.informationfreeway.org/api/0.6/*[bbox=165.9,-47.9,179.0,-34.0]
+  wget -O new_zealand.osm 'http://api.openstreetmap.org/api/0.6/map?bbox=165.9,-47.9,179.0,-34.0'
+
+  wget -O chathams.osm  http://www.informationfreeway.org/api/0.6/*[bbox=-177.4,-44.5,-175.7,-43.5]
+  wget http://downloads.cloudmade.com/oceania/new_zealand/new_zealand.osm.bz2
+  wget http://downloads.cloudmade.com/oceania/new_zealand/new_zealand.osm.administrative.bz2
+  wget http://downloads.cloudmade.com/oceania/new_zealand/new_zealand.osm.coastline.bz2
+  
+  no longer available
+  
+1.5 download from central server
+  wget -O new_zealand.osm "http://api.openstreetmap.org/api/0.6/map?bbox=165.9,-47.9,179.0,-34.0" 
+     https://help.openstreetmap.org/questions/8543/wget-cant-download-requested-file
+     The maximum bbox size is 0.25, and your request was too large. Either request a smaller area, or use planet.osm    
+   
+======
+2. create gis db
+   use geonet_haz_db docker image (haz database)
+-- steps
+    psql --host=127.0.0.1 --username=postgres    	
+    
+    CREATE DATABASE gis WITH OWNER postgres TEMPLATE template0 ENCODING 'UTF8' ;
+    ALTER DATABASE gis SET timezone TO UTC; 
+    \connect gis;
+    create extension postgis;
+       
+    create role apache WITH LOGIN PASSWORD 'test'; 
+       
+    GRANT ALL ON SCHEMA PUBLIC TO apache;
+    grant all on spatial_ref_sys to apache;
+    grant all on geography_columns to apache;
+    grant all on geometry_columns to apache;
+    
+======
+3. Load osm data to pgsql
+
+3.1 install osm2pgsql
+    sudo dnf install osm2pgsql
+
+3.2 load data to pgsql
+    there is a newer Carto css styles (no clear doc for how to use): 
+                                   https://github.com/gravitystorm/openstreetmap-carto
+                                   https://github.com/gravitystorm/openstreetmap-carto/blob/master/INSTALL.md
+                                   https://github.com/mapbox/carto 
+
+osm2pgsql -c -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/new-zealand-latest.osm.pbf 
+
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.osm.bz2 
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.administrative.osm.bz2  
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.coastline.osm.bz2  
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.highway.osm.bz2 
+
+
+but we use the old default style (NZ):
+cd osm
+osm2pgsql -c -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz data/new-zealand-latest.osm.pbf
+
+## chatham_islands use past data as there is no where to download
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz data/chatham_islands.osm.bz2 
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz data/chatham_islands.administrative.osm.bz2 
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz data/chatham_islands.coastline.osm.bz2 
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz data/chatham_islands.highway.osm.bz2
+
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz  data/chatham_islands.highway.osm.bz2
+
+
+3.3 issues: key violation
+3.3.1  Osm2pgsql failed due to ERROR: PREPARE insert_node (int8, int4, int4, text[]) AS INSERT INTO anz_nodes VALUES ($1,$2,$3,$4);
+   PREPARE get_node (int8) AS SELECT lat,lon,tags FROM anz_nodes WHERE id = $1 LIMIT 1;
+   PREPARE get_node_list(int8[]) AS SELECT id, lat, lon FROM anz_nodes WHERE id = ANY($1::int8[]);
+   PREPARE delete_node (int8) AS DELETE FROM anz_nodes WHERE id = $1;
+   failed: ERROR:  relation "anz_nodes" does not exist
+   LINE 1: ...rt_node (int8, int4, int4, text[]) AS INSERT INTO anz_nodes ...
+   
+   https://github.com/openstreetmap/osm2pgsql/issues/126 (have to be slim mode, solved)
+  
+3.3.2  duplicate key value violates unique constraint "nz_nodes_pkey": not solved, affect chatham_islands.highway, chatham_islands.coastline
+Reading in file: data/chatham_islands.highway.osm.bz2
+COPY_END for COPY anz_ways FROM STDIN;
+ failed: ERROR:  duplicate key value violates unique constraint "anz_ways_pkey"
+DETAIL:  Key (id)=(53435516) already exists.
+
+Reading in file: data/chatham_islands.coastline.osm.bz2
+node cache: stored: 12(100.00%), storage efficiency: 1.15% (dense blocks: 1, sparse nodes: 11), hit rate: 0.00%
+Osm2pgsql failed due to ERROR: insert_node failed: ERROR:  duplicate key value violates unique constraint "anz_nodes_pkey"
+DETAIL:  Key (id)=(189916239) already exists.
+
+======
+check
+select  * from gis.anz_polygon  where name like 'Lake Taupo'
+
+======
+4. Render map tiles
+--
+4.1 install mapnik
+https://github.com/mapnik/mapnik/wiki/Mapnik-Installation
+
+sudo dnf install mapnik mapnik-devel mapnik-python proj-epsg
+
+--
+4.2 Create MAPNIK_MAP_FILE
+
+svn co http://svn.openstreetmap.org/applications/rendering/mapnik
+cd mapnik
+./generate_xml.py osm.xml anz_osm.xml --host 127.0.0.1 --port 5432 --user 'apache' --dbname gis --symbols ./symbols/ --world_boundaries ../data/world_boundaries/  --password 'test'  --prefix='anz'
+vi anz_osm.xml
+  export MAPNIK_MAP_FILE="anz_osm.xml" 
+  export MAPNIK_TILE_DIR="tiles/" 
+  
+  cp archive/set-mapnik-env .
+  vim set-mapnik-env
+  change "export MAPNIK_DBNAME='osm'" to 'gis'
+  change "export MAPNIK_DBUSER=`whoami`" to 'apache'
+  
+  ...
+  source set-mapnik-env
+  ./generate_image.py 
+  
+---
+4.3 Render tiles
+4.3.1. whole world for zoom levels 0-8 
+  cp generate_tiles.py generate_tiles_world.py
+  vim generate_tiles_world.py ##change zoom level 0-8, bbox
+  source set-mapnik-env  
+  ./generate_tiles_world.py
+  
+4.3.2. NZ region for zoom levels 9 - 13  
+   cp generate_tiles.py generate_tiles_nz.py
+   vim generate_tiles_nz.py ## zoom level 9-13
+   source set-mapnik-env
+   ./generate_tiles_nz.py
+ 
+4.3.3. Zoom levels 14 - 15
+  http://api.openstreetmap.org/
+  define regions (to reduce the tiles on the ocean)
+  from South to North:
+  r1: Southland
+   cp generate_tiles.py generate_tiles_r1.py   
+   vim generate_tiles_r1.py
+   source set-mapnik-env
+   ./generate_tiles_r1.py
+   
+  r2: Central south island
+  r3: North south island
+  r4: south North Island
+  r5: central North Island
+  r6: North North Island
+  
+4.3.4. Zoom level 16-18
+  city centres
+  z0: wellington
+  cp generate_tiles.py generate_tiles_z0.py
+  source set-mapnik-env
+   ./generate_tiles_z0.py
+  
+  z0: wellington
+  z01: chch
+  z1: akl
+  z2: hamilton
+  z3: dunedin
+  z4: tauranga  
+  z5: taupo
+  z6: rotorua
+  z7: gisborne
+  z8: napier
+  z9: palmerston north
+  z10: queenstown
+  z11: invercargill
+  z12: new plymouth
+  z13: whanganui
+  z14: nelson ## 173.16,-41.36,173.30,-41.26   
+ 
+ ======
+4.4 to view
+4.4.1 http://hutl14681.gns.cri.nz/hazard/osm-leaflet.html
+4.4.2 Issue: Chathem Ialands outlines missing, resulted from the key violation during osm2pgsql
+      solution: use tiles created in 2013 for zoom levels 0~8 
+  
+  
+
+======
+5. redo chathem islands with separate database
+5.1. create gis1 db
+   use geonet_haz_db docker image (haz database)
+-- steps
+    psql --host=127.0.0.1 --username=postgres    	
+    
+    CREATE DATABASE gis1 WITH OWNER postgres TEMPLATE template0 ENCODING 'UTF8' ;
+    ALTER DATABASE gis1 SET timezone TO UTC; 
+    \connect gis1;
+    create extension postgis;
+       
+    create role apache WITH LOGIN PASSWORD 'test'; 
+       
+    GRANT ALL ON SCHEMA PUBLIC TO apache;
+    grant all on spatial_ref_sys to apache;
+    grant all on geography_columns to apache;
+    grant all on geometry_columns to apache;
+    
+======
+5.2. Load osm data to pgsql
+
+5.2.1 use carto css
+cd /home/postgres/osm
+git clone https://github.com/gravitystorm/openstreetmap-carto                                  
+
+5.2.2 osm2pgsql
+
+osm2pgsql -c -s -C 2000 -H 127.0.0.1 -d gis1 -U apache -W -p chathem --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.osm.bz2 
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis1 -U apache -W -p chathem --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.administrative.osm.bz2  
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis1 -U apache -W -p chathem --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.coastline.osm.bz2  
+osm2pgsql -a -s -C 2000 -H 127.0.0.1 -d gis1 -U apache -W -p chathem --style openstreetmap-carto/openstreetmap-carto.style data/chatham_islands.highway.osm.bz2 
+
+still got key violations
+Reading in file: data/chatham_islands.administrative.osm.bz2
+Processing: Node(0k 0.0k/s) Way(0k 0.00k/s) Relation(93 93.00/s)  parse time: 1s
+Node stats: total(0), max(0) in 0s
+Way stats: total(0), max(0) in 0s
+Relation stats: total(93), max(911376) in 1s
+COPY_END for COPY chathem_rels FROM STDIN;
+ failed: ERROR:  duplicate key value violates unique constraint "chathem_rels_pkey"
+DETAIL:  Key (id)=(899077) already exists.
+CONTEXT:  COPY chathem_rels, line 1
+
+alter table chathem_rels drop constraint chathem_rels_pkey;
+
+
+
+5.3 render tiles
+                     
+ cp generate_tiles.py generate_tiles_chatham_large_area_0_8.py
+  vim generate_tiles_chatham_large_area_0_8 ##change zoom level 0-8, bbox
+  
+  ./generate_xml.py osm.xml chathem_osm.xml --host 127.0.0.1 --port 5432 --user 'apache' --dbname gis1 --symbols ./symbols/ --world_boundaries ../data/world_boundaries/  --password 'test'  --prefix='chathem'
+  export MAPNIK_MAP_FILE="chathem_osm.xml" 
+  export MAPNIK_TILE_DIR="tiles/" 
+  ./generate_tiles_chatham_large_area_0_8.py
+  
+  ./generate_tiles_chatham.py
+  
+result:
+/home/postgres/osm/tiles_2016_chatham
+still missing the coastlines
+
+======
+6. re render zoom level 0-8 for australia-oceania using carto-css
+
+6.1 re create database gis;
+
+6.2 
+osm2pgsql -c -s -C 2000 -H 127.0.0.1 -d gis -U apache -W -p anz --style openstreetmap-carto/openstreetmap-carto.style data/australia-oceania-latest.osm.pbf
+
+6.3
+
+ ./generate_xml.py osm.xml anz.xml --host 127.0.0.1 --port 5432 --user 'apache' --dbname gis --symbols ./symbols/ --world_boundaries ../data/world_boundaries/  --password 'test'  --prefix='anz'
+ 
+cp generate_tiles_world.py generate_tiles_anz_0_8.py
+export MAPNIK_MAP_FILE="anz.xml" 
+export MAPNIK_TILE_DIR="tiles/"
+./generate_tiles_anz_0_8.py
+
+mv mapnik/tiles tiles_2016_anz_0_8
+
+cp -r tiles_2016_anz_0_8/* /var/www/html/static/tiles/
+======
+7. copy past according tiles for chatham from that redered in 2013
+7.1 find according tiles:
+cd /home/postgres/osm/
+find tiles_2016_chatham_0_8 |grep png
+cp -r tiles_2016_chatham_0_8  tiles_2013_chatham_0_8
+
+cp mapnik_2013/tiles/0/0/0.png tiles_2013_chatham_0_8/0/0/
+cp mapnik_2013/tiles/1/0/1.png tiles_2013_chatham_0_8/1/0/
+cp mapnik_2013/tiles/2/0/2.png tiles_2013_chatham_0_8/2/0/
+cp mapnik_2013/tiles/3/0/5.png tiles_2013_chatham_0_8/3/0/
+cp mapnik_2013/tiles/4/0/10.png tiles_2013_chatham_0_8/4/0/
+cp mapnik_2013/tiles/5/0/20.png tiles_2013_chatham_0_8/5/0/
+cp mapnik_2013/tiles/6/0/40.png tiles_2013_chatham_0_8/6/0/
+cp mapnik_2013/tiles/7/0/81.png tiles_2013_chatham_0_8/7/0/
+cp mapnik_2013/tiles/7/1/81.png tiles_2013_chatham_0_8/7/1/
+cp mapnik_2013/tiles/8/1/163.png tiles_2013_chatham_0_8/8/1/
+cp mapnik_2013/tiles/8/1/162.png tiles_2013_chatham_0_8/8/1/
+cp mapnik_2013/tiles/8/2/163.png tiles_2013_chatham_0_8/8/2/
+cp mapnik_2013/tiles/8/2/162.png tiles_2013_chatham_0_8/8/2/
+cp mapnik_2013/tiles/8/3/163.png tiles_2013_chatham_0_8/8/3/
+cp mapnik_2013/tiles/8/3/162.png tiles_2013_chatham_0_8/8/3/
+
+7.2 copy 2013 tiles to final directory:
+cp -r tiles_2013_chatham_0_8/* /var/www/html/static/tiles/
+
+======
+###############################
+###### FINAL RESULT      ######
+###############################
+1. ZOOM LEVELS 9-18 NZ: 
+OSM data downloaded 2016 new-zealand-latest.osm.pbf 
+zoom levels 16-18 for cities and towns
+redered 5/2016
+
+in /home/postgres/osm/tiles_2016_nz_9_18/
+
+2. ZOOM LEVEL 9-15 CHATHAM ISLANDS
+osm data downloaded in 2013
+rendered in 5/2016
+IN /home/postgres/osm/tiles_2016_chatham_9_15
+
+
+3.ZOOM LEVELS (world and NZ) 0-8
+OSM data downloaded 2016 australia-oceania-latest.osm.pbf
+redered 5/2016
+IN /home/postgres/osm/tiles_2016_anz_0_8
+
+4. ZOOM LEVELS 0-8 FOR CHATHAM ISLANDS
+use tiles rendered in 2013 as there is a missing coastline issue
+IN /home/postgres/osm/tiles_2013_chatham_0_8
+--
+5. cmd:
+mkdir -p /var/www/html/tiles/
+cp -r /home/postgres/osm/tiles_2016_nz_9_18/*  /var/www/html/tiles/
+cp -r /home/postgres/osm/tiles_2016_chatham_9_15/*  /var/www/html/tiles/
+cp -r /home/postgres/osm/tiles_2016_anz_0_8/*  /var/www/html/tiles/
+cp -r /home/postgres/osm/tiles_2013_chatham_0_8/*  /var/www/html/tiles/
+
+cd /var/www/html/static/
+tar cjf /home/postgres/osm/osm_tiles_2016.tar.bz2 tiles/
+------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         
+   
+        
+     
+     
+
+  
+  
+  
+  
+
+    
+   
+      
